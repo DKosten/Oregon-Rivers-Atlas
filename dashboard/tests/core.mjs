@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {observations,normalize,features} from '../src/lib/usgs.ts';
+import {condition,delta24,statistics} from '../src/lib/analysis.ts';
+const time=new Date().toISOString();const point=(value='0',code='00060',extra={})=>({properties:{monitoring_location_id:'USGS-14305500',parameter_code:code,value,unit_of_measure:code==='00060'?'ft^3/s':code==='00065'?'ft':'degC',time,time_series_id:'sensor',approval_status:'Provisional',...extra}});
+const location={id:'USGS-14305500',properties:{state_code:'41',site_type_code:'ST',monitoring_location_name:'SILETZ RIVER AT SILETZ, OR'},geometry:{type:'Point',coordinates:[-123.88,44.71]}};
+const station=normalize([point('0'),point('10','00010'),point('2','00065')],[location])[0];
+assert.equal(station.flow.value,0);assert.equal(station.height.value,2);assert.equal(station.temperature.value,10);
+for(const bad of [point(null),point(''),point('Ice'),point('NaN'),point('-999999'),point('1','00060',{unit_of_measure:'m3/s'}),point('2','00060',{time:'2026-01-01'})])assert.equal(observations([bad]).size,0);
+assert.equal(normalize([point('1','00060',{monitoring_location_id:'USGS-12345678'})],[location]).length,0);
+const mixed=observations([point('8','00060',{time:'2026-01-01T00:00:00Z',time_series_id:'old'}),point('9','00060',{time:'2026-01-02T00:00:00Z',time_series_id:'new'})]);assert.equal(mixed.get('USGS-14305500|00060').length,1);
+assert.equal(condition(station,{min:1,max:100,temp:null}).tone,'bad');assert.equal(condition(station,{min:0,max:100,temp:null}).tone,'warn');assert.equal(condition(station,{min:null,max:null,temp:11}).tone,'good');
+assert.equal(condition({...station,flow:{...station.flow,time:'2020-01-01T00:00:00Z'}},{min:0,max:100,temp:null}).tone,'neutral');
+assert.equal(delta24([{time:'2026-01-01T00:00:00Z',value:10}],{time:'2026-01-02T00:00:00Z',value:15}).value,5);
+assert.equal(delta24([{time:'2026-01-01T00:00:00Z',value:10}],{time:'2026-01-02T03:00:00Z',value:15}),null);
+assert.equal(statistics([{value:1},{value:3}]).median,2);
+const real=globalThis.fetch;globalThis.fetch=async()=>Response.json({features:[],links:[{rel:'next',href:'https://example.com/steal'}]});await assert.rejects(()=>features('continuous',{}),/Unexpected USGS/);globalThis.fetch=real;
+console.log('PASS: unit validation, missing/zero values, exact gauge joins, sensor separation, stale thresholds, 24h tolerance, median, safe pagination.');

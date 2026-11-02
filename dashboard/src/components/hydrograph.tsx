@@ -1,0 +1,15 @@
+'use client';
+import {useState} from 'react';
+import type {Point} from '../lib/usgs';
+export default function Hydrograph({series,unit='CFS',daily=false,seasonal=false}:{series:{name:string,points:Point[],color:string}[],unit?:string,daily?:boolean,seasonal?:boolean}){
+ const [hover,setHover]=useState<number|null>(null);const all=series.flatMap(s=>s.points);if(!all.length)return <div className="chart-empty"><span>⌁</span><b>No observations for this selection</b><p>Try another period or station. Missing values are never estimated.</p></div>;
+ const ts=(p:Point)=>seasonal?Date.parse('2000-'+p.time.slice(5,10)+'T12:00:00Z'):Date.parse(p.time);const minT=Math.min(...all.map(ts)),maxT=Math.max(...all.map(ts));const max=Math.max(...all.map(p=>p.value))*1.08||1,min=Math.min(0,...all.map(p=>p.value));const W=900,H=260,x=(t:number)=>60+(t-minT)/(maxT-minT||1)*820,y=(v:number)=>220-(v-min)/(max-min)*190;
+ const target=hover==null?null:minT+(hover-60)/820*(maxT-minT);const nearest=target==null?[]:series.map(s=>({...s,p:s.points.reduce<Point|null>((a,p)=>!a||Math.abs(ts(p)-target)<Math.abs(ts(a)-target)?p:a,null)}));
+ return <div className="hydrograph"><svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Hydrograph in ${unit}`} onPointerMove={e=>{const r=e.currentTarget.getBoundingClientRect();setHover(Math.max(60,Math.min(880,(e.clientX-r.left)/r.width*W)))}} onPointerLeave={()=>setHover(null)}>
+ {[0,.25,.5,.75,1].map(k=><g key={k}><line x1="60" x2="880" y1={y(min+k*(max-min))} y2={y(min+k*(max-min))} stroke="#e1e7e3" strokeDasharray="3 5"/><text x="48" y={y(min+k*(max-min))+4} textAnchor="end">{Math.round(min+k*(max-min)).toLocaleString()}</text></g>)}
+ {series.map(s=>{const points=[...s.points].sort((a,b)=>ts(a)-ts(b));let last=0;const gap=daily?86400000*1.5:7200000;const d=points.map((p,i)=>{const t=ts(p);const command=i===0||t-last>gap?'M':'L';last=t;return `${command}${x(t)},${y(p.value)}`}).join(' ');return <g key={s.name}><path d={d} fill="none" stroke={s.color} strokeWidth="2.4" strokeLinejoin="round"/>{points.length===1&&<circle cx={x(ts(points[0]))} cy={y(points[0].value)} r="4" fill={s.color}/>}</g>})}
+ {[0,.25,.5,.75,1].map(k=><text key={k} x={60+k*820} y="247" textAnchor={k===0?'start':k===1?'end':'middle'}>{new Date(minT+k*(maxT-minT)).toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:daily||seasonal?'UTC':'America/Los_Angeles'})}</text>)}
+ {hover!=null&&<line x1={hover} x2={hover} y1="20" y2="220" stroke="#426c61" strokeDasharray="3 3"/>}</svg>
+ {nearest.length>0&&<div className="chart-tooltip">{nearest.map(s=><div key={s.name}><i style={{background:s.color}}/>{s.name}: <b>{s.p?.value.toLocaleString()} {unit}</b><small>{s.p&&(daily?s.p.time:new Date(s.p.time).toLocaleString('en-US',{timeZone:'America/Los_Angeles',timeZoneName:'short'}))}</small></div>)}</div>}
+ <div className="chart-legend">{series.map(s=><span key={s.name}><i style={{background:s.color}}/>{s.name}</span>)}<small>{daily?'USGS daily means · station-local date':'Continuous observations · Pacific time'} · gaps are not connected</small></div></div>
+}

@@ -1,0 +1,32 @@
+import assert from 'node:assert/strict';
+import {readPreferences,writePreferences,validatePreferences} from '../src/lib/preferences.ts';
+import {normalizeWeather,weatherURL} from '../src/lib/weather.ts';
+import {loadHistory,features} from '../src/lib/usgs.ts';
+const memory=new Map();globalThis.localStorage={getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)};
+const prefs={'14305500':{min:110,max:500,temp:18,section:'Test reach',activity:'Rafting'}};
+writePreferences(prefs);assert.deepEqual(readPreferences(),prefs);
+assert.equal(memory.size,1);assert.throws(()=>validatePreferences({'14305500':{min:500,max:110,temp:null}}),/Minimum/);
+assert.throws(()=>validatePreferences({'14305500':{min:NaN,max:null,temp:null}}),/Thresholds/);
+globalThis.localStorage.setItem=()=>{throw Error('quota')};assert.throws(()=>writePreferences(prefs),/not saved/);
+memory.set('oregon-rivers:preferences:v1','invalid');assert.throws(()=>readPreferences(),/could not be read/);
+const weather=normalizeWeather({current:{time:'2026-11-01T12:15',temperature_2m:0,cloud_cover:null,wind_speed_10m:-1,weather_code:null,precipitation:0},current_units:{temperature_2m:'°C',cloud_cover:'%',wind_speed_10m:'mp/h',precipitation:'mm'}});
+assert.equal(weather.air,0);assert.equal(weather.cloud,null);assert.equal(weather.wind,null);assert.equal(weather.precip,'Unknown');assert.equal(weather.precipMm,0);assert.equal(weather.time,'2026-11-01T12:15Z');
+assert.equal(normalizeWeather({current:{temperature_2m:10}}).air,null);
+assert.throws(()=>weatherURL(NaN,-123),/coordinates/);
+const real=fetch;let requested='';globalThis.fetch=async url=>{requested=String(url);return Response.json({features:[]});};
+assert.deepEqual((await loadHistory('14305500','00060',365,'2024-12-31')).points,[]);assert.match(decodeURIComponent(requested),/2024-01-01\/2024-12-31/);
+await assert.rejects(()=>loadHistory('bad','00060',7),/Invalid/);
+globalThis.fetch=async()=>new Response('',{status:429});await assert.rejects(()=>features('continuous',{}),/quota/);
+globalThis.fetch=async()=>Response.json({error:'bad'});await assert.rejects(()=>features('continuous',{}),/Invalid USGS/);
+globalThis.fetch=async()=>{throw new DOMException('Timeout','TimeoutError')};await assert.rejects(()=>features('continuous',{}),/Timeout/);
+globalThis.fetch=real;
+console.log('PASS: local storage isolation/errors, threshold validation, weather units/missing/zero, leap-year history, provider errors and timeouts.');
+
+const {loadGeography}=await import('../src/lib/geography.ts');
+globalThis.fetch=async url=>{
+ assert.match(String(url),/apps.fs.usda.gov/);
+ return Response.json({features:[{attributes:{recareaurl:'https://untrusted.example/'},geometry:{x:-123,y:44}},{attributes:{},geometry:null}]});
+};
+const geo=await loadGeography();assert.equal(geo.access.length,1);assert.equal(geo.error,'');assert.equal(geo.access[0].url,'https://www.fs.usda.gov/visit/maps');
+globalThis.fetch=real;
+console.log('PASS: access-only layer rejects invalid coordinates and untrusted links.');

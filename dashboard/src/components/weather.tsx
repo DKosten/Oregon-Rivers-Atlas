@@ -1,0 +1,9 @@
+import {useEffect,useState} from 'react';
+import type {Station} from '../lib/usgs';
+import {loadWeather} from '../lib/weather';
+export default function Weather({station,refreshKey}:{station:Station,refreshKey:string}){
+ const [data,setData]=useState<Awaited<ReturnType<typeof loadWeather>>|null>(null),[error,setError]=useState('');
+ useEffect(()=>{let gone=false;setData(null);setError('');if(station.lat==null||station.lon==null){setError('Gauge coordinates unavailable');return;}loadWeather(station.lat,station.lon).then(d=>{if(!gone)setData(d)}).catch(e=>{if(!gone)setError(e.message)});return()=>{gone=true}},[station.id,station.lat,station.lon,refreshKey]);
+ const v=(n:number|null|undefined,unit:string)=>n==null?'Unavailable':`${n.toLocaleString()} ${unit}`;
+ return <section className="panel weather-panel"><div className="panel-heading"><div><div className="eyebrow">WEATHER AT SELECTED GAUGE · MODELED</div><h2>Above the water</h2></div><a href="https://open-meteo.com/" target="_blank" rel="noreferrer">Open-Meteo ↗</a></div>{error?<p role="status">Weather unavailable: {error}. No substitute values are shown.</p>:!data?<p>Retrieving weather…</p>:<><div className="historical-stats">{[['Air temperature',v(data.air,'°C')],['Cloud cover',v(data.cloud,'%')],['Wind',v(data.wind,'mph')+(data.windDirection==null?'':` · ${data.windDirection}°`)],['Precipitation',v(data.precipMm,'mm')+' · '+data.precip]].map(([k,value])=><div key={k}><span>{k}</span><b>{value}</b></div>)}</div><p className="micro">Model time: {data.time?new Date(data.time).toLocaleString('en-US',{timeZone:'America/Los_Angeles',timeZoneName:'short'}):'Unavailable'}{data.time&&Date.now()-Date.parse(data.time)>7200000?' · stale':''}. Modeled conditions near the gauge, not an on-site weather measurement.</p></>}</section>
+}
