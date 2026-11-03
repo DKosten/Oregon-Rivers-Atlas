@@ -23,10 +23,13 @@ globalThis.fetch=real;
 console.log('PASS: local storage isolation/errors, threshold validation, weather units/missing/zero, leap-year history, provider errors and timeouts.');
 
 const {loadGeography}=await import('../src/lib/geography.ts');
+let recreationRequests=0;
 globalThis.fetch=async url=>{
+ const params=new URL(url).searchParams;assert.equal(params.get('where'),'1=1');assert.equal(params.get('orderByFields'),'recareaid ASC');recreationRequests++;
+ if(params.get('resultOffset')==='2000')return Response.json({features:[{attributes:{recareaname:'Other river recreation site',recareaurl:'https://www.fs.usda.gov/test'},geometry:{x:-121,y:45}}]});
  assert.match(String(url),/apps.fs.usda.gov/);
- return Response.json({features:[{attributes:{recareaurl:'https://untrusted.example/'},geometry:{x:-123,y:44}},{attributes:{},geometry:null}]});
+ return Response.json({exceededTransferLimit:true,features:[{attributes:{recareaurl:'https://untrusted.example/'},geometry:{x:-123,y:44}},{attributes:{},geometry:null}]});
 };
-const geo=await loadGeography();assert.equal(geo.access.length,1);assert.equal(geo.error,'');assert.equal(geo.access[0].url,'https://www.fs.usda.gov/visit/maps');
+const geo=await loadGeography();assert.equal(geo.access.length,2);assert.equal(recreationRequests,2);assert.equal(geo.access[1].attributes.recareaname,'Other river recreation site');assert.equal(geo.error,'');assert.equal(geo.access[0].url,'https://www.fs.usda.gov/visit/maps');
 globalThis.fetch=real;
 console.log('PASS: access-only layer rejects invalid coordinates and untrusted links.');

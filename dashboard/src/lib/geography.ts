@@ -4,7 +4,7 @@ async function query(base:string,params:Record<string,string>){const rows:any[]=
 let cache:{at:number,data:any}|undefined;
 async function fetchGeography(){
  let access:any[]=[];let error='';
- try{const rows=await query(ACCESS,{where:"recareaname IN ('Lower Bridge Campground','Allingham Campground','McKenzie Bridge Campground','Metolius River','Camp Sherman Campground','North Santiam River','Hood River')",outFields:'recareaname,recareaurl,openstatus,markeractivity'});
+ try{const rows=await query(ACCESS,{where:'1=1',orderByFields:'recareaid ASC',outFields:'recareaid,recareaname,recareaurl,openstatus,markeractivity,forestname'});
  access=rows.filter(f=>Number.isFinite(f.geometry?.x)&&Number.isFinite(f.geometry?.y)).map(f=>{let url='https://www.fs.usda.gov/visit/maps';try{const u=new URL(f.attributes.recareaurl);if(u.protocol==='https:'&&u.hostname.endsWith('.fs.usda.gov'))url=u.href}catch{}return {...f,url}});
  }catch(e){error='Recreation layer: '+(e instanceof Error?e.message:'Unavailable')}
  const data={access,error,source:{access:ACCESS},fetchedAt:new Date().toISOString()};cache={at:Date.now(),data};return data;
