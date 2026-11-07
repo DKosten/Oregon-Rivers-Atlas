@@ -1,0 +1,3344 @@
+{
+  "asOf": "2026-11-07",
+  "note": "Public station metadata only, no observation cache. Candidate names are not verified associations. Non-river sites remain unassigned.",
+  "stations": [
+    {
+      "stationId": "10387110",
+      "name": "CHEWAUCAN RIVER AT MOUTH NEAR VALLEY FALLS, OR",
+      "coordinates": [
+        -120.24945,
+        42.522080555555554
+      ],
+      "candidateRiver": "Chewaucan River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 33.8,
+      "reachId": "164383320"
+    },
+    {
+      "stationId": "10396000",
+      "name": "DONNER UND BLITZEN RIVER NR FRENCHGLEN OR",
+      "coordinates": [
+        -118.86749999999999,
+        42.79083333333333
+      ],
+      "candidateRiver": "Donner und Blitzen River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 19.8,
+      "reachId": "147549334"
+    },
+    {
+      "stationId": "11491450",
+      "name": "IRVING CREEK NEAR LENZ, OR",
+      "coordinates": [
+        -121.45905555555557,
+        42.95166666666667
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "11491470",
+      "name": "JACKSON CREEK NEAR LENZ, OR",
+      "coordinates": [
+        -121.45936111111111,
+        42.97836111111111
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "11491950",
+      "name": "MILLER CREEK NEAR BEAVER MARSH, OR",
+      "coordinates": [
+        -121.87355555555555,
+        43.18333333333333
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "11492550",
+      "name": "SAND CREEK BLW SAND CREEK CANAL NR CHINCHALO, OR",
+      "coordinates": [
+        -121.84847222222221,
+        42.87040833333334
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "11493100",
+      "name": "SCOTT CREEK BLW SAND CREEK CANAL NR CHINCHALO, OR",
+      "coordinates": [
+        -121.87275555555554,
+        42.88709166666666
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "11493500",
+      "name": "WILLIAMSON RIVER NEAR KLAMATH AGENCY, OR",
+      "coordinates": [
+        -121.83451666666666,
+        42.739925
+      ],
+      "candidateRiver": "Williamson River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 13.2,
+      "reachId": "137192002"
+    },
+    {
+      "stationId": "11501000",
+      "name": "SPRAGUE RIVER NEAR CHILOQUIN, OR",
+      "coordinates": [
+        -121.848333333333,
+        42.5843055555556
+      ],
+      "candidateRiver": "Sprague River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 38.7,
+      "reachId": "164380752"
+    },
+    {
+      "stationId": "11502500",
+      "name": "WILLIAMSON RIVER BLW SPRAGUE RIVER NR CHILOQUIN,OR",
+      "coordinates": [
+        -121.879713888889,
+        42.564375
+      ],
+      "candidateRiver": "Williamson River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 12.4,
+      "reachId": "164376027"
+    },
+    {
+      "stationId": "11504115",
+      "name": "WOOD RIVER NEAR KLAMATH AGENCY, OR",
+      "coordinates": [
+        -121.941702777778,
+        42.5815555555556
+      ],
+      "candidateRiver": "Wood River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 14.8,
+      "reachId": "164315225"
+    },
+    {
+      "stationId": "11504270",
+      "name": "CRYSTAL CREEK NEAR ROCKY POINT, OR",
+      "coordinates": [
+        -122.07613888888889,
+        42.51269444444444
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "11507500",
+      "name": "LINK RIVER AT KLAMATH FALLS, OR",
+      "coordinates": [
+        -121.794170774708,
+        42.2234779450143
+      ],
+      "candidateRiver": "Link River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 109.8,
+      "reachId": "{6A3E28E0-812F-4067-9DDB-6AF81A20872C}"
+    },
+    {
+      "stationId": "11507501",
+      "name": "LINK RIVER BELOW KENO CANAL, NEAR KLAMATH FALLS,OR",
+      "coordinates": [
+        -121.790281638911,
+        42.2193114072644
+      ],
+      "candidateRiver": "Link River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 5.5,
+      "reachId": "{E1DBE6A3-1504-42EF-B060-CB62A77A62DE}"
+    },
+    {
+      "stationId": "11508600",
+      "name": "KLAMATH RIVER NEAR KLAMATH FALLS, OR",
+      "coordinates": [
+        -121.7987111111111,
+        42.174677777777774
+      ],
+      "candidateRiver": "Klamath River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 98.4,
+      "reachId": "165867876"
+    },
+    {
+      "stationId": "11508700",
+      "name": "KLAMATH RIVER AT MILLER ISLAND, NEAR MIDLAND, OR",
+      "coordinates": [
+        -121.8486861111111,
+        42.14678333333333
+      ],
+      "candidateRiver": "Klamath River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 99.6,
+      "reachId": "84047111"
+    },
+    {
+      "stationId": "11509370",
+      "name": "KLAMATH RIVER ABOVE KENO DAM, AT KENO, OR",
+      "coordinates": [
+        -121.92887685812798,
+        42.12788298264342
+      ],
+      "candidateRiver": "Klamath River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 8.8,
+      "reachId": "84046993"
+    },
+    {
+      "stationId": "11509390",
+      "name": "KLAMATH RIVER BELOW KENO DAM, AT KENO, OR",
+      "coordinates": [
+        -121.94833611111112,
+        42.13243611111111
+      ],
+      "candidateRiver": "Klamath River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 11.9,
+      "reachId": "165549380"
+    },
+    {
+      "stationId": "11509500",
+      "name": "KLAMATH RIVER AT KENO, OR",
+      "coordinates": [
+        -121.962231260697,
+        42.1331994617917
+      ],
+      "candidateRiver": "Klamath River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 16.3,
+      "reachId": "165549415"
+    },
+    {
+      "stationId": "11510700",
+      "name": "KLAMATH RIVER BLW JOHN C.BOYLE PWRPLNT, NR KENO,OR",
+      "coordinates": [
+        -122.073345266467,
+        42.0845877081179
+      ],
+      "candidateRiver": "Klamath River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 47.1,
+      "reachId": "165550822"
+    },
+    {
+      "stationId": "13181000",
+      "name": "OWYHEE RIVER NR ROME OR",
+      "coordinates": [
+        -117.64916666666667,
+        42.86638888888889
+      ],
+      "candidateRiver": "Owyhee River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 26.2,
+      "reachId": "165179048"
+    },
+    {
+      "stationId": "13183000",
+      "name": "OWYHEE RIVER BELOW OWYHEE DAM, OR",
+      "coordinates": [
+        -117.25583333333333,
+        43.654444444444444
+      ],
+      "candidateRiver": "Owyhee River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 31.0,
+      "reachId": "158456239"
+    },
+    {
+      "stationId": "13215480",
+      "name": "SOUTH FORK MALHEUR RIVER NR RIVERSIDE, OR",
+      "coordinates": [
+        -118.175058333333,
+        43.5190833333333
+      ],
+      "candidateRiver": "South Fork Malheur River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 25.2,
+      "reachId": "162990875"
+    },
+    {
+      "stationId": "13233300",
+      "name": "MALHEUR RIVER BELOW NEVADA DAM NEAR VALE OR",
+      "coordinates": [
+        -117.21888888888888,
+        43.987500000000004
+      ],
+      "candidateRiver": "Malheur River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 18.3,
+      "reachId": "162727955"
+    },
+    {
+      "stationId": "13325000",
+      "name": "EAST FORK WALLOWA RIVER NEAR JOSEPH, OR",
+      "coordinates": [
+        -117.211325,
+        45.2711027777778
+      ],
+      "candidateRiver": "East Fork Wallowa River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 4.1,
+      "reachId": "142132447"
+    },
+    {
+      "stationId": "13331500",
+      "name": "MINAM RIVER AT MINAM, OR",
+      "coordinates": [
+        -117.726589171683,
+        45.6198669449839
+      ],
+      "candidateRiver": "Minam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 21.9,
+      "reachId": "161231927"
+    },
+    {
+      "stationId": "13333000",
+      "name": "GRANDE RONDE RIVER AT TROY, OR",
+      "coordinates": [
+        -117.451008949656,
+        45.945701924026
+      ],
+      "candidateRiver": "Grande Ronde River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 38.1,
+      "reachId": "109440274"
+    },
+    {
+      "stationId": "14020000",
+      "name": "UMATILLA RIVER ABOVE MEACHAM CREEK, NR GIBBON, OR",
+      "coordinates": [
+        -118.323291340607,
+        45.7195766766477
+      ],
+      "candidateRiver": "Umatilla River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 22.5,
+      "reachId": "145366742"
+    },
+    {
+      "stationId": "14020300",
+      "name": "MEACHAM CREEK AT GIBBON, OR",
+      "coordinates": [
+        -118.354447222222,
+        45.689125
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14020850",
+      "name": "UMATILLA R AT W RESERVATION BNDY NR PENDLETON, OR",
+      "coordinates": [
+        -118.736649004847,
+        45.6715193731455
+      ],
+      "candidateRiver": "Umatilla River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 30.2,
+      "reachId": "145368698"
+    },
+    {
+      "stationId": "14033500",
+      "name": "UMATILLA RIVER NEAR UMATILLA, OR",
+      "coordinates": [
+        -119.32708333333333,
+        45.90269444444444
+      ],
+      "candidateRiver": "Umatilla River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 30.3,
+      "reachId": "145368485"
+    },
+    {
+      "stationId": "14034470",
+      "name": "WILLOW CREEK ABV WILLOW CR LAKE, NR HEPPNER, OR",
+      "coordinates": [
+        -119.51585443777,
+        45.3406828948142
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14034480",
+      "name": "BALM FORK NEAR HEPPNER, OR",
+      "coordinates": [
+        -119.541132530355,
+        45.3320726498308
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14034500",
+      "name": "WILLOW CREEK AT HEPPNER, OR",
+      "coordinates": [
+        -119.550021777929,
+        45.3504061981843
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14034608",
+      "name": "WILLOW CREEK AT MORGAN STREET, AT HEPPNER, OR",
+      "coordinates": [
+        -119.560299848699,
+        45.3612398070719
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14038530",
+      "name": "JOHN DAY RIVER NEAR JOHN DAY, OR",
+      "coordinates": [
+        -118.90634185695,
+        44.4184889656876
+      ],
+      "candidateRiver": "John Day River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 17.8,
+      "reachId": "144673897"
+    },
+    {
+      "stationId": "14043840",
+      "name": "MF JOHN DAY RIVER ABV CAMP CREEK, NR GALENA, OR",
+      "coordinates": [
+        -118.794308333333,
+        44.692625
+      ],
+      "candidateRiver": "Middle Fork John Day River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 3.9,
+      "reachId": "145122159"
+    },
+    {
+      "stationId": "14044000",
+      "name": "MIDDLE FORK JOHN DAY RIVER AT RITTER, OR",
+      "coordinates": [
+        -119.141368600338,
+        44.8887638815651
+      ],
+      "candidateRiver": "Middle Fork John Day River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 29.3,
+      "reachId": "167137012"
+    },
+    {
+      "stationId": "14046000",
+      "name": "NORTH FORK JOHN DAY RIVER AT MONUMENT, OR",
+      "coordinates": [
+        -119.432,
+        44.81491666666666
+      ],
+      "candidateRiver": "North Fork John Day River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 26.9,
+      "reachId": "160239763"
+    },
+    {
+      "stationId": "14046500",
+      "name": "JOHN DAY RIVER AT SERVICE CREEK, OR",
+      "coordinates": [
+        -120.00701944444444,
+        44.794013888888884
+      ],
+      "candidateRiver": "John Day River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 28.5,
+      "reachId": "150743712"
+    },
+    {
+      "stationId": "14046778",
+      "name": "BRIDGE CR ABV COYOTE CANYON NR MITCHELL, OR",
+      "coordinates": [
+        -120.30191666666667,
+        44.72687222222223
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14048000",
+      "name": "JOHN DAY RIVER AT MCDONALD FERRY, OR",
+      "coordinates": [
+        -120.409491902857,
+        45.5876278253207
+      ],
+      "candidateRiver": "John Day River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 31.6,
+      "reachId": "150742773"
+    },
+    {
+      "stationId": "14070615",
+      "name": "M F TUMALO CREEK ABV PROWELL SPRINGS, NR BEND, OR",
+      "coordinates": [
+        -121.632769444444,
+        44.0371138888889
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14070624",
+      "name": "M F TUMALO CREEK BLW PROWELL SPRINGS, NR BEND, OR",
+      "coordinates": [
+        -121.632563888889,
+        44.0372277777778
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14070900",
+      "name": "BRIDGE CREEK BELOW INTAKE, NEAR BEND, OR",
+      "coordinates": [
+        -121.567833333333,
+        44.0310833333333
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14076500",
+      "name": "DESCHUTES RIVER NEAR CULVER, OR",
+      "coordinates": [
+        -121.321155782003,
+        44.498729327928
+      ],
+      "candidateRiver": "Deschutes River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 3.5,
+      "reachId": "149195831"
+    },
+    {
+      "stationId": "14078260",
+      "name": "SF CROOKED RIVER NEAR BELL BUTTE, NEAR PAULINA, OR",
+      "coordinates": [
+        -120.04330555555555,
+        44.062
+      ],
+      "candidateRiver": "South Fork Crooked River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 15.2,
+      "reachId": "162220383"
+    },
+    {
+      "stationId": "14087380",
+      "name": "CROOKED RIVER BLW OSBORNE CANYON, NR OPAL CITY, OR",
+      "coordinates": [
+        -121.232872766268,
+        44.426897243787
+      ],
+      "candidateRiver": "Crooked River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 3.7,
+      "reachId": "147702724"
+    },
+    {
+      "stationId": "14087400",
+      "name": "CROOKED RIVER BELOW OPAL SPRINGS, NEAR CULVER, OR",
+      "coordinates": [
+        -121.298377020145,
+        44.4923407376854
+      ],
+      "candidateRiver": "Crooked River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 8.9,
+      "reachId": "147702712"
+    },
+    {
+      "stationId": "14091500",
+      "name": "METOLIUS RIVER NEAR GRANDVIEW, OR",
+      "coordinates": [
+        -121.483943279553,
+        44.6262275028065
+      ],
+      "candidateRiver": "Metolius River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 40.0,
+      "reachId": "149195153"
+    },
+    {
+      "stationId": "14092500",
+      "name": "DESCHUTES RIVER NEAR MADRAS, OR",
+      "coordinates": [
+        -121.246993886344,
+        44.7259522504172
+      ],
+      "candidateRiver": "Deschutes River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 46.6,
+      "reachId": "148977600"
+    },
+    {
+      "stationId": "14092750",
+      "name": "SHITIKE CRK AT PETERS PASTURE, NR WARM SPRINGS, OR",
+      "coordinates": [
+        -121.633397087372,
+        44.7503951638233
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14093000",
+      "name": "SHITIKE CREEK NEAR WARM SPRINGS, OR",
+      "coordinates": [
+        -121.236439317859,
+        44.7642856309693
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14096850",
+      "name": "BEAVER CREEK BELOW QUARTZ CREEK, NR SIMNASHO, OR",
+      "coordinates": [
+        -121.394228590228,
+        44.958727244191
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14097100",
+      "name": "WARM SPRINGS RIVER NEAR KAHNEETA HOT SPRINGS, OR",
+      "coordinates": [
+        -121.14977353018,
+        44.8565087079423
+      ],
+      "candidateRiver": "Warm Springs River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 3.7,
+      "reachId": "148976817"
+    },
+    {
+      "stationId": "14101500",
+      "name": "WHITE RIVER BELOW TYGH VALLEY, OR",
+      "coordinates": [
+        -121.095139,
+        45.241722
+      ],
+      "candidateRiver": "White River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 12.0,
+      "reachId": "148976970"
+    },
+    {
+      "stationId": "14102000",
+      "name": "DESCHUTES RIVER AT SHERARS BRIDGE, OR",
+      "coordinates": [
+        -121.0363611111111,
+        45.26102777777778
+      ],
+      "candidateRiver": "Deschutes River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 14.0,
+      "reachId": "148977070"
+    },
+    {
+      "stationId": "14103000",
+      "name": "DESCHUTES RIVER AT MOODY, NEAR BIGGS, OR",
+      "coordinates": [
+        -120.905620323184,
+        45.6220678034004
+      ],
+      "candidateRiver": "Deschutes River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 15.0,
+      "reachId": "148977299"
+    },
+    {
+      "stationId": "14105700",
+      "name": "COLUMBIA RIVER AT THE DALLES, OR",
+      "coordinates": [
+        -121.189916666667,
+        45.6082777777778
+      ],
+      "candidateRiver": "Columbia River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 208.8,
+      "reachId": "150813977"
+    },
+    {
+      "stationId": "14113200",
+      "name": "MOSIER CREEK NEAR MOSIER, OR",
+      "coordinates": [
+        -121.377295128456,
+        45.6490080154424
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14118500",
+      "name": "WEST FORK HOOD RIVER NEAR DEE, OR",
+      "coordinates": [
+        -121.636417,
+        45.599139
+      ],
+      "candidateRiver": "West Fork Hood River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 1.7,
+      "reachId": "150813902"
+    },
+    {
+      "stationId": "14120000",
+      "name": "HOOD RIVER AT TUCKER BRIDGE, NEAR HOOD RIVER, OR",
+      "coordinates": [
+        -121.5488,
+        45.6545
+      ],
+      "candidateRiver": "Hood River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 42.7,
+      "reachId": "150813893"
+    },
+    {
+      "stationId": "14128870",
+      "name": "COLUMBIA RIVER BELOW BONNEVILLE DAM, OR",
+      "coordinates": [
+        -121.960833333333,
+        45.6330555555556
+      ],
+      "candidateRiver": "Columbia River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 159.7,
+      "reachId": "{8B12CCA8-755D-44E8-A2BB-B03CE3BD0AEC}"
+    },
+    {
+      "stationId": "14137000",
+      "name": "SANDY RIVER NEAR MARMOT, OR",
+      "coordinates": [
+        -122.137306772233,
+        45.3995642184899
+      ],
+      "candidateRiver": "Sandy River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 67.3,
+      "reachId": "149953931"
+    },
+    {
+      "stationId": "14138720",
+      "name": "BULL RUN RIVER AT LOWER FLUME NR BRIGHTWOOD, OR",
+      "coordinates": [
+        -121.865356741951,
+        45.4709515076195
+      ],
+      "candidateRiver": "Bull Run River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 106.7,
+      "reachId": "149944582"
+    },
+    {
+      "stationId": "14138800",
+      "name": "BLAZED ALDER CREEK NEAR RHODODENDRON, OR",
+      "coordinates": [
+        -121.891468414856,
+        45.4526183350522
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14138850",
+      "name": "BULL RUN RIVER NEAR MULTNOMAH FALLS, OR",
+      "coordinates": [
+        -122.01230492877,
+        45.4981742982636
+      ],
+      "candidateRiver": "Bull Run River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 10.4,
+      "reachId": "149955912"
+    },
+    {
+      "stationId": "14138870",
+      "name": "FIR CREEK NEAR BRIGHTWOOD, OR",
+      "coordinates": [
+        -122.025638467523,
+        45.48011889212
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14138900",
+      "name": "NORTH FORK BULL RUN RIVER NEAR MULTNOMAH FALLS, OR",
+      "coordinates": [
+        -122.03588795804295,
+        45.49424543152181
+      ],
+      "candidateRiver": "North Fork Bull Run River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 17.7,
+      "reachId": "149955895"
+    },
+    {
+      "stationId": "14139800",
+      "name": "SOUTH FORK BULL RUN RIVER NEAR BULL RUN, OR",
+      "coordinates": [
+        -122.109529191105,
+        45.4445640151657
+      ],
+      "candidateRiver": "South Fork Bull Run River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 18.2,
+      "reachId": "149956103"
+    },
+    {
+      "stationId": "14139940",
+      "name": "BULL RUN RIVER BLW BULL RUN RES 2, NR BULL RUN, OR",
+      "coordinates": [
+        -122.15519444444445,
+        45.44852777777778
+      ],
+      "candidateRiver": "Bull Run River",
+      "association": "unmatched: candidate river more than 250 m away",
+      "nearestCandidateMeters": 369.4
+    },
+    {
+      "stationId": "14140000",
+      "name": "BULL RUN RIVER NEAR BULL RUN (RIVER ONLY), OR",
+      "coordinates": [
+        -122.179655555556,
+        45.4373
+      ],
+      "candidateRiver": "Bull Run River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 16.4,
+      "reachId": "149956026"
+    },
+    {
+      "stationId": "14140020",
+      "name": "BULL RUN R AT LARSON'S BRIDGE, NEAR BULL RUN, OR",
+      "coordinates": [
+        -122.195420055121,
+        45.4317590597684
+      ],
+      "candidateRiver": "Bull Run River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 1.9,
+      "reachId": "149956058"
+    },
+    {
+      "stationId": "14141500",
+      "name": "LITTLE SANDY RIVER NEAR BULL RUN, OR",
+      "coordinates": [
+        -122.171474604824,
+        45.4153977748054
+      ],
+      "candidateRiver": "Little Sandy River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 1.0,
+      "reachId": "{0E3C0085-191F-4932-9A62-D7C2A13EDBDB}"
+    },
+    {
+      "stationId": "14142500",
+      "name": "SANDY RIVER BLW BULL RUN RIVER, NR BULL RUN, OR",
+      "coordinates": [
+        -122.245088516653,
+        45.4490094356452
+      ],
+      "candidateRiver": "Sandy River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 44.0,
+      "reachId": "149953793"
+    },
+    {
+      "stationId": "14142580",
+      "name": "KELLY CREEK AT KANE ROAD NEAR GRESHAM, OR",
+      "coordinates": [
+        -122.40030555555556,
+        45.51233333333333
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14142800",
+      "name": "BEAVER CREEK AT TROUTDALE, OR",
+      "coordinates": [
+        -122.38927777777778,
+        45.519444444444446
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14144790",
+      "name": "MF WILLAMETTE R ABV SNAKE CREEK, NR OAKRIDGE, OR",
+      "coordinates": [
+        -122.4478388888889,
+        43.539969444444445
+      ],
+      "candidateRiver": "Middle Fork Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 15.2,
+      "reachId": "{C99ADFA2-F6C3-4CE8-8979-49CE0523AC28}"
+    },
+    {
+      "stationId": "14144900",
+      "name": "HILLS CR AB HILLS CR RES, NR OAKRIDGE, OR",
+      "coordinates": [
+        -122.370599937927,
+        43.6804006348438
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14145110",
+      "name": "HILLS CREEK DAM TAILWATER NEAR OAKRIDGE, OR",
+      "coordinates": [
+        -122.423938888889,
+        43.7107027777778
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14145500",
+      "name": "MF WILLAMETTE RIVER ABV SALT CRK, NEAR OAKRIDGE,OR",
+      "coordinates": [
+        -122.437825561731,
+        43.7209565532805
+      ],
+      "candidateRiver": "Middle Fork Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 12.2,
+      "reachId": "165099389"
+    },
+    {
+      "stationId": "14147500",
+      "name": "N FK OF M FK WILLAMETTE R NR OAKRIDGE, OR",
+      "coordinates": [
+        -122.505329201326,
+        43.7567902423058
+      ],
+      "candidateRiver": "North Fork Middle Fork Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 8.1,
+      "reachId": "93074333"
+    },
+    {
+      "stationId": "14148000",
+      "name": "MF WILLAMETTE RIVER BLW N FORK, NR OAKRIDGE, OR.",
+      "coordinates": [
+        -122.56088788998,
+        43.8012351684092
+      ],
+      "candidateRiver": "Middle Fork Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 103.4,
+      "reachId": "165114244"
+    },
+    {
+      "stationId": "14149010",
+      "name": "LOOKOUT POINT DAM TAILWATER NEAR LOWELL, OR",
+      "coordinates": [
+        -122.753602777778,
+        43.915375
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14149011",
+      "name": "MF WILLAMETTE R BLW LOOKOUT POINT DAM NR LOWELL OR",
+      "coordinates": [
+        -122.75564722222222,
+        43.913780555555554
+      ],
+      "candidateRiver": "Middle Fork Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 64.2,
+      "reachId": "165108380"
+    },
+    {
+      "stationId": "14149510",
+      "name": "DEXTER DAM TAILWATER AT DEXTER, OR",
+      "coordinates": [
+        -122.805605555556,
+        43.9243416666667
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14150000",
+      "name": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+      "coordinates": [
+        -122.837296737992,
+        43.9456814973011
+      ],
+      "candidateRiver": "Middle Fork Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 12.9,
+      "reachId": "93059911"
+    },
+    {
+      "stationId": "14150290",
+      "name": "FALL CREEK ABOVE NORTH FORK, NEAR LOWELL, OR",
+      "coordinates": [
+        -122.629722222222,
+        43.9672222222222
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14150800",
+      "name": "WINBERRY CREEK NEAR LOWELL,OR",
+      "coordinates": [
+        -122.688676185763,
+        43.9142924228541
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14151000",
+      "name": "FALL CREEK BLW WINBERRY CREEK, NEAR FALL CREEK, OR",
+      "coordinates": [
+        -122.774794014456,
+        43.9442929906398
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14152000",
+      "name": "MIDDLE FORK WILLAMETTE RIVER AT JASPER, OR",
+      "coordinates": [
+        -122.905912564085,
+        43.9981816559059
+      ],
+      "candidateRiver": "Middle Fork Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 4.2,
+      "reachId": "93063209"
+    },
+    {
+      "stationId": "14152500",
+      "name": "COAST FORK WILLAMETTE AT LONDON, OR",
+      "coordinates": [
+        -123.085908935681,
+        43.6415101464236
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14153500",
+      "name": "COAST FORK WILLAMETTE R BLW COTTAGE GROVE DAM, OR",
+      "coordinates": [
+        -123.049799414876,
+        43.7206778481042
+      ],
+      "candidateRiver": "Coast Fork Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 11.7,
+      "reachId": "{FF593DE6-CCBD-414C-A614-6192920471AB}"
+    },
+    {
+      "stationId": "14154500",
+      "name": "ROW RIVER ABOVE PITCHER CREEK, NEAR DORENA, OR",
+      "coordinates": [
+        -122.87444444444444,
+        43.73527777777778
+      ],
+      "candidateRiver": "Row River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 47.8,
+      "reachId": "144452188"
+    },
+    {
+      "stationId": "14155500",
+      "name": "ROW RIVER NEAR COTTAGE GROVE, OR",
+      "coordinates": [
+        -122.991465543832,
+        43.7929012392659
+      ],
+      "candidateRiver": "Row River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 46.4,
+      "reachId": "{528425F8-14D2-4141-ADE9-9D7FE89FB133}"
+    },
+    {
+      "stationId": "14157500",
+      "name": "COAST FORK WILLAMETTE RIVER NEAR GOSHEN, OR",
+      "coordinates": [
+        -122.966469972572,
+        43.9804032449365
+      ],
+      "candidateRiver": "Coast Fork Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 10.4,
+      "reachId": "144451918"
+    },
+    {
+      "stationId": "14158050",
+      "name": "WILLAMETTE RIVER AT EUGENE, OR",
+      "coordinates": [
+        -123.08277777777778,
+        44.052499999999995
+      ],
+      "candidateRiver": "Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 64.2,
+      "reachId": "144428084"
+    },
+    {
+      "stationId": "14158100",
+      "name": "WILLAMETTE RIVER AT OWOSSO BRIDGE AT EUGENE, OR",
+      "coordinates": [
+        -123.116111111111,
+        44.0916666666667
+      ],
+      "candidateRiver": "Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 21.8,
+      "reachId": "144428083"
+    },
+    {
+      "stationId": "14158500",
+      "name": "MCKENZIE RIVER AT OUTLET OF CLEAR LAKE, OR",
+      "coordinates": [
+        -121.995617217441,
+        44.3609545058304
+      ],
+      "candidateRiver": "McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 93.1,
+      "reachId": "161201913"
+    },
+    {
+      "stationId": "14158740",
+      "name": "MCKENZIE RIVER BL PAYNE CR, NR BELKNAP SPRINGS, OR",
+      "coordinates": [
+        -122.036805555556,
+        44.2863888888889
+      ],
+      "candidateRiver": "McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 15.8,
+      "reachId": "{DEC3560F-ABC4-4C2E-AFDA-76D383437F3D}"
+    },
+    {
+      "stationId": "14158790",
+      "name": "SMITH RIVER ABV SMITH R RESV,NR BELKNAP SPRNGS,OR",
+      "coordinates": [
+        -122.047007398804,
+        44.3345665972081
+      ],
+      "candidateRiver": "Smith River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 22.3,
+      "reachId": "161202319"
+    },
+    {
+      "stationId": "14158798",
+      "name": "SMITH RIVER ABV TRAIL BRDG RESV NR BELKNAP SPRINGS",
+      "coordinates": [
+        -122.04858333333333,
+        44.28988888888889
+      ],
+      "candidateRiver": "Smith River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 22.9,
+      "reachId": "161202412"
+    },
+    {
+      "stationId": "14158850",
+      "name": "MCKENZIE R BLW TRAIL BR DAM NR BELKNAP SPRINGS, OR",
+      "coordinates": [
+        -122.049782610289,
+        44.267900099113
+      ],
+      "candidateRiver": "McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 2.4,
+      "reachId": "108064951"
+    },
+    {
+      "stationId": "14159110",
+      "name": "MCKENZIE RIVER ABOVE SOUTH FORK, NEAR RAINBOW, OR",
+      "coordinates": [
+        -122.25650665904193,
+        44.16633385772843
+      ],
+      "candidateRiver": "McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 15.3,
+      "reachId": "108046023"
+    },
+    {
+      "stationId": "14159130",
+      "name": "SF MCKENZIE RIVER ABV ROARING R NR COUGAR DAM, OR",
+      "coordinates": [
+        -122.085,
+        43.95702777777778
+      ],
+      "candidateRiver": "South Fork McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 21.1,
+      "reachId": "161214560"
+    },
+    {
+      "stationId": "14159200",
+      "name": "SO FK MCKENZIE RIVER ABV COUGAR LAKE NR RAINBOW OR",
+      "coordinates": [
+        -122.217824536089,
+        44.0470670436432
+      ],
+      "candidateRiver": "South Fork McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 5.2,
+      "reachId": "108049033"
+    },
+    {
+      "stationId": "14159410",
+      "name": "COUGAR DAM TAILWATER NEAR RAINBOW, OR",
+      "coordinates": [
+        -122.243588888889,
+        44.1305472222222
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14159500",
+      "name": "SOUTH FORK MCKENZIE RIVER NEAR RAINBOW, OR",
+      "coordinates": [
+        -122.248390979198,
+        44.1359581695523
+      ],
+      "candidateRiver": "South Fork McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 52.6,
+      "reachId": "161206340"
+    },
+    {
+      "stationId": "14161100",
+      "name": "BLUE RIVER BELOW TIDBITS CREEK, NR BLUE RIVER, OR",
+      "coordinates": [
+        -122.265067571502,
+        44.2179043377954
+      ],
+      "candidateRiver": "Blue River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 26.1,
+      "reachId": "{6AB00961-C91C-49AB-882A-DE74FC653D08}"
+    },
+    {
+      "stationId": "14161500",
+      "name": "LOOKOUT CREEK NEAR BLUE RIVER, OR",
+      "coordinates": [
+        -122.256733007411,
+        44.2095708053921
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14162050",
+      "name": "NF QUARTZ CREEK NEAR BLUE RIVER, OR",
+      "coordinates": [
+        -122.31480555555555,
+        44.1845
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14162200",
+      "name": "BLUE RIVER AT BLUE RIVER, OR",
+      "coordinates": [
+        -122.333119210082,
+        44.162348189733
+      ],
+      "candidateRiver": "Blue River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 42.3,
+      "reachId": "{DAB01470-6E6D-4AD2-9B7C-1F0A71559EBA}"
+    },
+    {
+      "stationId": "14162440",
+      "name": "QUARTZ CREEK BLW CANE CREEK NEAR FINN ROCK, OR",
+      "coordinates": [
+        -122.3552111111111,
+        44.10798055555556
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14162450",
+      "name": "QUARTZ CREEK NEAR FINN ROCK, OR",
+      "coordinates": [
+        -122.37872222222222,
+        44.12336111111111
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14162500",
+      "name": "MCKENZIE RIVER NEAR VIDA, OR",
+      "coordinates": [
+        -122.470620008956,
+        44.1248487356704
+      ],
+      "candidateRiver": "McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 62.0,
+      "reachId": "161192473"
+    },
+    {
+      "stationId": "14163000",
+      "name": "GATE CREEK AT VIDA, OR",
+      "coordinates": [
+        -122.573033333333,
+        44.1460861111111
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14163150",
+      "name": "MCKENZIE RIVER BLW LEABURG DAM, NR LEABURG, OR",
+      "coordinates": [
+        -122.627571535187,
+        44.1237380356862
+      ],
+      "candidateRiver": "McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 27.9,
+      "reachId": "161178915"
+    },
+    {
+      "stationId": "14163900",
+      "name": "MCKENZIE RIVER NEAR WALTERVILLE, OR",
+      "coordinates": [
+        -122.771187401123,
+        44.0698492269484
+      ],
+      "candidateRiver": "McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 48.6,
+      "reachId": "161167838"
+    },
+    {
+      "stationId": "14164550",
+      "name": "CAMP CRK AT CAMP CRK RD BRIDGE, NR SPRINGFIELD, OR",
+      "coordinates": [
+        -122.884666666667,
+        44.0706666666667
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14164700",
+      "name": "CEDAR CREEK AT SPRINGFIELD, OR",
+      "coordinates": [
+        -122.919664395152,
+        44.0593480409356
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14164900",
+      "name": "McKENZIE RIVER ABV HAYDEN BR, AT SPRINGFIELD,OR",
+      "coordinates": [
+        -122.964527254659,
+        44.0712365207472
+      ],
+      "candidateRiver": "McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 48.1,
+      "reachId": "108063331"
+    },
+    {
+      "stationId": "14165000",
+      "name": "MOHAWK RIVER NEAR SPRINGFIELD, OR",
+      "coordinates": [
+        -122.957305170928,
+        44.0929031662724
+      ],
+      "candidateRiver": "Mohawk River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 21.9,
+      "reachId": "108044827"
+    },
+    {
+      "stationId": "14165500",
+      "name": "MCKENZIE RIVER NEAR COBURG, OR",
+      "coordinates": [
+        -123.046972222222,
+        44.1130555555556
+      ],
+      "candidateRiver": "McKenzie River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 79.4,
+      "reachId": "161167755"
+    },
+    {
+      "stationId": "14166000",
+      "name": "WILLAMETTE RIVER AT HARRISBURG, OR",
+      "coordinates": [
+        -123.173703627243,
+        44.270401258546
+      ],
+      "candidateRiver": "Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 83.8,
+      "reachId": "144428060"
+    },
+    {
+      "stationId": "14166500",
+      "name": "LONG TOM RIVER NEAR NOTI, OR",
+      "coordinates": [
+        -123.426209709104,
+        44.0498447758317
+      ],
+      "candidateRiver": "Long Tom River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 42.3,
+      "reachId": "159854057"
+    },
+    {
+      "stationId": "14169000",
+      "name": "LONG TOM RIVER NEAR ALVADORE, OR",
+      "coordinates": [
+        -123.30030555555555,
+        44.12261111111111
+      ],
+      "candidateRiver": "Long Tom River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 11.0,
+      "reachId": "159852157"
+    },
+    {
+      "stationId": "14170000",
+      "name": "LONG TOM RIVER AT MONROE, OR",
+      "coordinates": [
+        -123.29636111111111,
+        44.31283333333333
+      ],
+      "candidateRiver": "Long Tom River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 11.6,
+      "reachId": "144428214"
+    },
+    {
+      "stationId": "14171000",
+      "name": "MARYS RIVER NEAR PHILOMATH, OR",
+      "coordinates": [
+        -123.334,
+        44.525
+      ],
+      "candidateRiver": "Marys River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 13.4,
+      "reachId": "144427991"
+    },
+    {
+      "stationId": "14171600",
+      "name": "WILLAMETTE RIVER AT CORVALLIS, OR",
+      "coordinates": [
+        -123.256805555556,
+        44.5663611111111
+      ],
+      "candidateRiver": "Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 55.0,
+      "reachId": "144427986"
+    },
+    {
+      "stationId": "14173500",
+      "name": "CALAPOOIA RIVER AT ALBANY, OR",
+      "coordinates": [
+        -123.128472222222,
+        44.6200277777778
+      ],
+      "candidateRiver": "Calapooia River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 11.3,
+      "reachId": "144428091"
+    },
+    {
+      "stationId": "14174000",
+      "name": "WILLAMETTE RIVER AT ALBANY, OR",
+      "coordinates": [
+        -123.10676155507,
+        44.6387328328399
+      ],
+      "candidateRiver": "Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 46.1,
+      "reachId": "144427978"
+    },
+    {
+      "stationId": "14174450",
+      "name": "NORTH SANTIAM RIVER NR MARION FORKS, OR",
+      "coordinates": [
+        -121.96600000000001,
+        44.59908333333333
+      ],
+      "candidateRiver": "North Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 1.4,
+      "reachId": "160052053"
+    },
+    {
+      "stationId": "14178000",
+      "name": "NO SANTIAM R BLW BOULDER CRK, NR DETROIT, OR",
+      "coordinates": [
+        -122.101185936698,
+        44.7067885412009
+      ],
+      "candidateRiver": "North Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 66.2,
+      "reachId": "123420344"
+    },
+    {
+      "stationId": "14179000",
+      "name": "BREITENBUSH R ABV FRENCH CR NR DETROIT, OR.",
+      "coordinates": [
+        -122.128964795941,
+        44.7526217947758
+      ],
+      "candidateRiver": "Breitenbush River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 26.3,
+      "reachId": "160081108"
+    },
+    {
+      "stationId": "14180300",
+      "name": "BLOWOUT CREEK NEAR DETROIT, OR",
+      "coordinates": [
+        -122.130908025707,
+        44.6528999860047
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14180510",
+      "name": "DETROIT DAM TAILWATER NEAR DETROIT, OR",
+      "coordinates": [
+        -122.251,
+        44.722
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14180520",
+      "name": "N SANTIAM RIVER BLW DETROIT DAM, NR DETROIT, OR",
+      "coordinates": [
+        -122.25541666666666,
+        44.725433333333335
+      ],
+      "candidateRiver": "North Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 0.9,
+      "reachId": "123420992"
+    },
+    {
+      "stationId": "14181350",
+      "name": "SARDINE CREEK NEAR NIAGRA, OR",
+      "coordinates": [
+        -122.27419444444445,
+        44.7475
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14181410",
+      "name": "BIG CLIFF DAM TAILWATER NEAR NIAGARA, OR",
+      "coordinates": [
+        -122.283377777778,
+        44.7514861111111
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14181500",
+      "name": "NORTH SANTIAM RIVER AT NIAGARA, OR",
+      "coordinates": [
+        -122.297444444444,
+        44.7537777777778
+      ],
+      "candidateRiver": "North Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 31.7,
+      "reachId": "160069919"
+    },
+    {
+      "stationId": "14181650",
+      "name": "N SANTIAM RIVER AT MINTO FISH FACILITY NR GATES OR",
+      "coordinates": [
+        -122.35944166666665,
+        44.757558333333336
+      ],
+      "candidateRiver": "North Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 25.8,
+      "reachId": "160070252"
+    },
+    {
+      "stationId": "14181900",
+      "name": "LITTLE N SANTIAM RIVER ABV EVANS CR, AT ELKHORN,OR",
+      "coordinates": [
+        -122.35494999999999,
+        44.83580277777778
+      ],
+      "candidateRiver": "Little North Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 8.7,
+      "reachId": "{893ED183-86E9-493A-B4C0-CB69F82BA6A6}"
+    },
+    {
+      "stationId": "14182500",
+      "name": "LITTLE NORTH SANTIAM RIVER NEAR MEHAMA, OR",
+      "coordinates": [
+        -122.578973849527,
+        44.7915108355795
+      ],
+      "candidateRiver": "Little North Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 16.5,
+      "reachId": "{07E7A8FC-3AAF-449C-9BDC-2C95A4381D79}"
+    },
+    {
+      "stationId": "14183000",
+      "name": "NORTH SANTIAM RIVER AT MEHAMA, OR",
+      "coordinates": [
+        -122.61880555555555,
+        44.789249999999996
+      ],
+      "candidateRiver": "North Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 28.1,
+      "reachId": "160053843"
+    },
+    {
+      "stationId": "14183020",
+      "name": "NORTH SANTIAM RIVER BLW STOUT CREEK, NR MEHAMA, OR",
+      "coordinates": [
+        -122.67772222222223,
+        44.77822222222222
+      ],
+      "candidateRiver": "North Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 32.8,
+      "reachId": "123426749"
+    },
+    {
+      "stationId": "14184100",
+      "name": "NORTH SANTIAM R AT GREENS BRIDGE, NR JEFFERSON, OR",
+      "coordinates": [
+        -122.97311111111111,
+        44.70794444444445
+      ],
+      "candidateRiver": "North Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 27.0,
+      "reachId": "160052275"
+    },
+    {
+      "stationId": "14185000",
+      "name": "SOUTH SANTIAM RIVER BELOW CASCADIA, OR",
+      "coordinates": [
+        -122.497581665718,
+        44.3917922451391
+      ],
+      "candidateRiver": "South Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 29.6,
+      "reachId": "86596312"
+    },
+    {
+      "stationId": "14185600",
+      "name": "MIDDLE SANTIAM RIVER NR SANTIAM JUNCTION, OR",
+      "coordinates": [
+        -122.16905555555556,
+        44.501333333333335
+      ],
+      "candidateRiver": "Middle Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 3.5,
+      "reachId": "160156969"
+    },
+    {
+      "stationId": "14185800",
+      "name": "MIDDLE SANTIAM R NEAR CASCADIA, OR",
+      "coordinates": [
+        -122.372024926217,
+        44.5151239007679
+      ],
+      "candidateRiver": "Middle Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 6.0,
+      "reachId": "160188660"
+    },
+    {
+      "stationId": "14185865",
+      "name": "QUARTZVILLE CREEK BLW GALENA CREEK NR CASCADIA, OR",
+      "coordinates": [
+        -122.335,
+        44.58105555555556
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14185900",
+      "name": "QUARTZVILLE CREEK NEAR CASCADIA, OR",
+      "coordinates": [
+        -122.43591547938,
+        44.5401235699613
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14186110",
+      "name": "GREEN PETER DAM TAILWATER NEAR FOSTER, OR",
+      "coordinates": [
+        -122.549666666667,
+        44.4492944444444
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14186200",
+      "name": "MIDDLE SANTIAM R BLW GREEN PETER DAM NR FOSTER, OR",
+      "coordinates": [
+        -122.550361276763,
+        44.4481800459648
+      ],
+      "candidateRiver": "Middle Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 6.3,
+      "reachId": "86601190"
+    },
+    {
+      "stationId": "14186610",
+      "name": "FOSTER DAM TAILWATER AT FOSTER, OR",
+      "coordinates": [
+        -122.671355555556,
+        44.4147944444444
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14186700",
+      "name": "SOUTH SANTIAM RIVER AT FOSTER, OR",
+      "coordinates": [
+        -122.67344444444446,
+        44.41475
+      ],
+      "candidateRiver": "South Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 34.6,
+      "reachId": "160139881"
+    },
+    {
+      "stationId": "14187000",
+      "name": "WILEY CREEK NEAR FOSTER, OR",
+      "coordinates": [
+        -122.623138423572,
+        44.3723476860641
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14187200",
+      "name": "SOUTH SANTIAM RIVER NEAR FOSTER, OR",
+      "coordinates": [
+        -122.688695596301,
+        44.412346824771
+      ],
+      "candidateRiver": "South Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 68.5,
+      "reachId": "160141413"
+    },
+    {
+      "stationId": "14187500",
+      "name": "SOUTH SANTIAM RIVER AT WATERLOO, OR",
+      "coordinates": [
+        -122.823421371697,
+        44.4984564280628
+      ],
+      "candidateRiver": "South Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 71.7,
+      "reachId": "160141254"
+    },
+    {
+      "stationId": "14188570",
+      "name": "SOUTH SANTIAM RIVER AT LEBANON, OR",
+      "coordinates": [
+        -122.88958333333333,
+        44.538333333333334
+      ],
+      "candidateRiver": "South Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 37.1,
+      "reachId": "86610242"
+    },
+    {
+      "stationId": "14188610",
+      "name": "SCHAFER CREEK NEAR LACOMB, OR",
+      "coordinates": [
+        -122.465916174627,
+        44.6195672805625
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14188750",
+      "name": "CRABTREE CREEK NEAR SCIO, OR",
+      "coordinates": [
+        -122.91925,
+        44.673139
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14188800",
+      "name": "THOMAS CREEK NEAR SCIO, OR",
+      "coordinates": [
+        -122.77008784099,
+        44.7120668725711
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14189000",
+      "name": "SANTIAM RIVER AT JEFFERSON, OR",
+      "coordinates": [
+        -123.01425,
+        44.7147222222222
+      ],
+      "candidateRiver": "Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 35.2,
+      "reachId": "123417104"
+    },
+    {
+      "stationId": "14189050",
+      "name": "SANTIAM RIVER NEAR JEFFERSON, OR",
+      "coordinates": [
+        -123.049816371896,
+        44.7387325079903
+      ],
+      "candidateRiver": "Santiam River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 47.1,
+      "reachId": "123417033"
+    },
+    {
+      "stationId": "14190500",
+      "name": "LUCKIAMUTE RIVER NEAR SUVER, OR",
+      "coordinates": [
+        -123.234543494007,
+        44.783175269726
+      ],
+      "candidateRiver": "Luckiamute River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 90.6,
+      "reachId": "159844842"
+    },
+    {
+      "stationId": "14190610",
+      "name": "LUCKIAMUTE RIVER NEAR BUENA VISTA, OR",
+      "coordinates": [
+        -123.1623,
+        44.73008888888889
+      ],
+      "candidateRiver": "Luckiamute River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 10.9,
+      "reachId": "144427681"
+    },
+    {
+      "stationId": "14191000",
+      "name": "WILLAMETTE RIVER AT SALEM, OR",
+      "coordinates": [
+        -123.042874245737,
+        44.9442862974769
+      ],
+      "candidateRiver": "Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 62.5,
+      "reachId": "147814367"
+    },
+    {
+      "stationId": "14192015",
+      "name": "WILLAMETTE RIVER AT KEIZER, OR",
+      "coordinates": [
+        -123.036638888889,
+        44.957
+      ],
+      "candidateRiver": "Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 113.5,
+      "reachId": "147814552"
+    },
+    {
+      "stationId": "14194150",
+      "name": "SOUTH YAMHILL RIVER AT MCMINNVILLE, OR",
+      "coordinates": [
+        -123.18166666666667,
+        45.206944444444446
+      ],
+      "candidateRiver": "South Yamhill River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 24.8,
+      "reachId": "162375314"
+    },
+    {
+      "stationId": "14197900",
+      "name": "WILLAMETTE RIVER AT NEWBERG, OR",
+      "coordinates": [
+        -122.961489251109,
+        45.2845625124917
+      ],
+      "candidateRiver": "Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 97.4,
+      "reachId": "147814397"
+    },
+    {
+      "stationId": "14198400",
+      "name": "BULL CREEK NEAR WILHOIT, OR",
+      "coordinates": [
+        -122.385,
+        44.9609
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14198500",
+      "name": "MOLALLA R AB PC NR WILHOIT, OR",
+      "coordinates": [
+        -122.480916666667,
+        45.0097222222222
+      ],
+      "candidateRiver": "Molalla River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 7.1,
+      "reachId": "{D07C2D19-74D1-4505-BE0C-D6B771467A60}"
+    },
+    {
+      "stationId": "14199704",
+      "name": "NATE CREEK TRIBUTARY NEAR COLTON, OR",
+      "coordinates": [
+        -122.41211111111112,
+        45.205444444444446
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14200000",
+      "name": "MOLALLA RIVER NEAR CANBY, OR",
+      "coordinates": [
+        -122.68744444444445,
+        45.24391666666667
+      ],
+      "candidateRiver": "Molalla River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 39.9,
+      "reachId": "123690837"
+    },
+    {
+      "stationId": "14201340",
+      "name": "PUDDING RIVER NEAR WOODBURN, OR",
+      "coordinates": [
+        -122.804260007889,
+        45.1512313728394
+      ],
+      "candidateRiver": "Pudding River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 47.6,
+      "reachId": "162623348"
+    },
+    {
+      "stationId": "14201500",
+      "name": "BUTTE CREEK AT MONITOR, OR",
+      "coordinates": [
+        -122.746201894857,
+        45.1015099127356
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14202000",
+      "name": "PUDDING RIVER AT AURORA, OR",
+      "coordinates": [
+        -122.75091666666667,
+        45.23327777777778
+      ],
+      "candidateRiver": "Pudding River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 62.4,
+      "reachId": "123690945"
+    },
+    {
+      "stationId": "14202650",
+      "name": "WAPATO CREEK AT SW GASTON ROAD, AT GASTON, OR",
+      "coordinates": [
+        -123.125,
+        45.4406416666667
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14202980",
+      "name": "SCOGGINS CK BLW HENRY HAGG LAKE, NR GASTON, OR",
+      "coordinates": [
+        -123.200109005606,
+        45.4692796819319
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14203500",
+      "name": "TUALATIN RIVER NEAR DILLEY, OR",
+      "coordinates": [
+        -123.124273987822,
+        45.4748365069704
+      ],
+      "candidateRiver": "Tualatin River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 36.4,
+      "reachId": "142396013"
+    },
+    {
+      "stationId": "14205350",
+      "name": "EF DAIRY CR ABV MURTAUGH CR NR MEACHAM CORNER, OR",
+      "coordinates": [
+        -123.07001944444444,
+        45.69385555555555
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14206241",
+      "name": "TUALATIN RIVER AT HWY 219 NEAR HILLSBORO, OR",
+      "coordinates": [
+        -122.99094444444445,
+        45.50038888888889
+      ],
+      "candidateRiver": "Tualatin River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 35.4,
+      "reachId": "{6D3B832A-9681-4F97-8694-F642C891D859}"
+    },
+    {
+      "stationId": "14206694",
+      "name": "TUALATIN RIVER AT RIVER MILE 24.5, NR SCHOLLS, OR",
+      "coordinates": [
+        -122.895100277282,
+        45.401506594574
+      ],
+      "candidateRiver": "Tualatin River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 5.2,
+      "reachId": "{CF8F7579-DCDC-4BFD-B04A-FD37D5BE9A01}"
+    },
+    {
+      "stationId": "14206752",
+      "name": "CHICKEN CREEK ABV SEASONAL TRAIL, NR SHERWOOD, OR",
+      "coordinates": [
+        -122.837056,
+        45.385417
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14206900",
+      "name": "FANNO CREEK AT 56TH AVE, AT PORTLAND, OR",
+      "coordinates": [
+        -122.73475,
+        45.488194444444446
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14206950",
+      "name": "FANNO CREEK AT DURHAM, OR",
+      "coordinates": [
+        -122.754818493538,
+        45.4034520206329
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14207200",
+      "name": "TUALATIN RIVER AT OSWEGO DAM, NEAR WEST LINN, OR",
+      "coordinates": [
+        -122.685093653075,
+        45.3565087677307
+      ],
+      "candidateRiver": "Tualatin River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 6.5,
+      "reachId": "142402860"
+    },
+    {
+      "stationId": "14207500",
+      "name": "TUALATIN RIVER AT WEST LINN, OR",
+      "coordinates": [
+        -122.676204437708,
+        45.3506755926263
+      ],
+      "candidateRiver": "Tualatin River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 31.8,
+      "reachId": "142402856"
+    },
+    {
+      "stationId": "14207740",
+      "name": "WILLAMETTE RIVER ABOVE FALLS, AT OREGON CITY, OR",
+      "coordinates": [
+        -122.62052777777777,
+        45.34805555555556
+      ],
+      "candidateRiver": "Willamette River",
+      "association": "unmatched: candidate river more than 250 m away",
+      "nearestCandidateMeters": 347.8
+    },
+    {
+      "stationId": "14208000",
+      "name": "CLACKAMAS RIVER AT BIG BOTTOM, OR",
+      "coordinates": [
+        -121.92352777777778,
+        45.01708333333333
+      ],
+      "candidateRiver": "Clackamas River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 9.7,
+      "reachId": "160985151"
+    },
+    {
+      "stationId": "14208700",
+      "name": "OAK GROVE FORK NEAR GOVERNMENT CAMP, OR",
+      "coordinates": [
+        -121.815077512123,
+        45.1137300878887
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14209000",
+      "name": "OAK GROVE FORK ABOVE POWERPLANT INTAKE, OR.",
+      "coordinates": [
+        -121.94063451724,
+        45.07123193808
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14209250",
+      "name": "OAK GROVE FORK AT RIPPLEBROOK CAMPGROUND, OR",
+      "coordinates": [
+        -122.042858333333,
+        45.0798138888889
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14209500",
+      "name": "CLACKAMAS RIVER ABOVE THREE LYNX CREEK, OR",
+      "coordinates": [
+        -122.073413673786,
+        45.1248432050366
+      ],
+      "candidateRiver": "Clackamas River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 3.1,
+      "reachId": "160984873"
+    },
+    {
+      "stationId": "14209700",
+      "name": "FISH CREEK NEAR THREE LYNX, OR",
+      "coordinates": [
+        -122.154472,
+        45.148278
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14209710",
+      "name": "CLACKAMAS RIVER AT CARTER BRIDGE, NEAR ESTACADA,OR",
+      "coordinates": [
+        -122.15619225554,
+        45.1670650570287
+      ],
+      "candidateRiver": "Clackamas River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 31.1,
+      "reachId": "160985202"
+    },
+    {
+      "stationId": "14210000",
+      "name": "CLACKAMAS RIVER AT ESTACADA, OR",
+      "coordinates": [
+        -122.353974629983,
+        45.2998434588304
+      ],
+      "candidateRiver": "Clackamas River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 84.4,
+      "reachId": "125585792"
+    },
+    {
+      "stationId": "14210750",
+      "name": "CLEAR CREEK AT CARVER, OR",
+      "coordinates": [
+        -122.493833,
+        45.389806
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14211010",
+      "name": "CLACKAMAS RIVER NEAR OREGON CITY, OR",
+      "coordinates": [
+        -122.577313403107,
+        45.3792874273003
+      ],
+      "candidateRiver": "Clackamas River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 13.2,
+      "reachId": "166809400"
+    },
+    {
+      "stationId": "14211315",
+      "name": "TRYON CREEK NEAR LAKE OSWEGO, OR",
+      "coordinates": [
+        -122.673705658225,
+        45.4306747568568
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14211400",
+      "name": "JOHNSON CREEK AT REGNER ROAD, AT GRESHAM, OR",
+      "coordinates": [
+        -122.42183333333334,
+        45.486333333333334
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14211499",
+      "name": "KELLEY CREEK AT SE 159TH DRIVE AT PORTLAND, OR",
+      "coordinates": [
+        -122.498423925627,
+        45.4767869384904
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14211500",
+      "name": "JOHNSON CREEK AT SYCAMORE, OR",
+      "coordinates": [
+        -122.508019444444,
+        45.4774555555556
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14211542",
+      "name": "CRYSTAL SPRINGS CREEK AT BYBEE ST, PORTLAND, OR",
+      "coordinates": [
+        -122.641722222222,
+        45.4740277777778
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14211550",
+      "name": "JOHNSON CREEK AT MILWAUKIE, OR",
+      "coordinates": [
+        -122.643149636135,
+        45.4528970265752
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14211814",
+      "name": "FAIRVIEW CREEK AT GLISAN ST NEAR GRESHAM, OR",
+      "coordinates": [
+        -122.448702395317,
+        45.5276196816193
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14299800",
+      "name": "NEHALEM RIVER NEAR VERNONIA, OR",
+      "coordinates": [
+        -123.283172182797,
+        45.8070558557861
+      ],
+      "candidateRiver": "Nehalem River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 31.2,
+      "reachId": "145983085"
+    },
+    {
+      "stationId": "14300350",
+      "name": "NEHALEM RIVER AT JEWELL, OR",
+      "coordinates": [
+        -123.492119,
+        45.935161
+      ],
+      "candidateRiver": "Nehalem River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 16.3,
+      "reachId": "145982956"
+    },
+    {
+      "stationId": "14301000",
+      "name": "NEHALEM RIVER NEAR FOSS, OR",
+      "coordinates": [
+        -123.75540502767,
+        45.7039986256055
+      ],
+      "candidateRiver": "Nehalem River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 22.6,
+      "reachId": "159818890"
+    },
+    {
+      "stationId": "14301500",
+      "name": "WILSON RIVER NEAR TILLAMOOK, OR",
+      "coordinates": [
+        -123.725120924774,
+        45.4759399592551
+      ],
+      "candidateRiver": "Wilson River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 44.3,
+      "reachId": "165010226"
+    },
+    {
+      "stationId": "14302020",
+      "name": "WILSON RIVER AT SOLLIE SMITH BR AT TILLAMOOK, OR",
+      "coordinates": [
+        -123.807972222222,
+        45.4771111111111
+      ],
+      "candidateRiver": "Wilson River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 34.6,
+      "reachId": "105842798"
+    },
+    {
+      "stationId": "14302480",
+      "name": "TRASK RIVER ABOVE CEDAR CREEK, NEAR TILLAMOOK, OR",
+      "coordinates": [
+        -123.710397374069,
+        45.4462181035925
+      ],
+      "candidateRiver": "Trask River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 43.7,
+      "reachId": "165009789"
+    },
+    {
+      "stationId": "14302900",
+      "name": "NESTUCCA RIVER NEAR FAIRDALE, OR",
+      "coordinates": [
+        -123.41352777777779,
+        45.31063888888889
+      ],
+      "candidateRiver": "Nestucca River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 8.5,
+      "reachId": "{9C7101E1-B9EA-40C5-BCC5-0844D29083D4}"
+    },
+    {
+      "stationId": "14303200",
+      "name": "TUCCA CREEK NEAR BLAINE, OR.",
+      "coordinates": [
+        -123.546501221565,
+        45.324276352969
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14303600",
+      "name": "NESTUCCA RIVER NEAR BEAVER, OR",
+      "coordinates": [
+        -123.847060972396,
+        45.266494460755
+      ],
+      "candidateRiver": "Nestucca River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 8.7,
+      "reachId": "165019918"
+    },
+    {
+      "stationId": "14305500",
+      "name": "SILETZ RIVER AT SILETZ, OR",
+      "coordinates": [
+        -123.887334813534,
+        44.7151172276956
+      ],
+      "candidateRiver": "Siletz River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 1.5,
+      "reachId": "159222192"
+    },
+    {
+      "stationId": "14305800",
+      "name": "SILETZ RIVER NEAR SILETZ, OR",
+      "coordinates": [
+        -123.91379722222223,
+        44.7646
+      ],
+      "candidateRiver": "Siletz River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 50.6,
+      "reachId": "159222050"
+    },
+    {
+      "stationId": "14306032",
+      "name": "BIG ELK CREEK NEAR ELK CITY, OR",
+      "coordinates": [
+        -123.85205555555555,
+        44.603722222222224
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14306340",
+      "name": "EAST FORK LOBSTER CREEK NEAR ALSEA, OR.",
+      "coordinates": [
+        -123.636493594149,
+        44.247899094297
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14306500",
+      "name": "ALSEA RIVER NEAR TIDEWATER, OR",
+      "coordinates": [
+        -123.831778038249,
+        44.3859538093346
+      ],
+      "candidateRiver": "Alsea River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 60.6,
+      "reachId": "162122995"
+    },
+    {
+      "stationId": "14306950",
+      "name": "SIUSLAW RIVER NEAR ALMA, OR",
+      "coordinates": [
+        -123.61158055555555,
+        43.92113888888888
+      ],
+      "candidateRiver": "Siuslaw River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 6.0,
+      "reachId": "{F4E53F5D-2CBB-4485-8A56-FF86A4F643F0}"
+    },
+    {
+      "stationId": "14307605",
+      "name": "LAKE CREEK AT SWISSHOME, OR",
+      "coordinates": [
+        -123.79468888888889,
+        44.0565
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14307620",
+      "name": "SIUSLAW RIVER NEAR MAPLETON, OR",
+      "coordinates": [
+        -123.883165857354,
+        44.0623431662782
+      ],
+      "candidateRiver": "Siuslaw River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 8.9,
+      "reachId": "161950980"
+    },
+    {
+      "stationId": "14308000",
+      "name": "SOUTH UMPQUA RIVER AT TILLER, OR",
+      "coordinates": [
+        -122.948387167165,
+        42.9303985131151
+      ],
+      "candidateRiver": "South Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 78.8,
+      "reachId": "124315710"
+    },
+    {
+      "stationId": "14308500",
+      "name": "ELK CREEK NR DREW, OR",
+      "coordinates": [
+        -122.917830256525,
+        42.8901215915414
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14308910",
+      "name": "S UMPQUA RIVER AT CANYONVILLE, OR",
+      "coordinates": [
+        -123.285917,
+        42.943694
+      ],
+      "candidateRiver": "South Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 1.4,
+      "reachId": "124315641"
+    },
+    {
+      "stationId": "14308990",
+      "name": "COW CREEK ABV GALESVILLE RES, NR AZALEA, OR.",
+      "coordinates": [
+        -123.125892172877,
+        42.8231766518296
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14309000",
+      "name": "COW CREEK NEAR AZALEA, OR",
+      "coordinates": [
+        -123.178949165529,
+        42.8248428595987
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14309500",
+      "name": "WEST FORK COW CREEK NEAR GLENDALE, OR",
+      "coordinates": [
+        -123.610907136202,
+        42.8040035554472
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14310000",
+      "name": "COW CREEK NEAR RIDDLE, OR",
+      "coordinates": [
+        -123.428957073995,
+        42.9234502146334
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14312000",
+      "name": "SOUTH UMPQUA RIVER NEAR BROCKWAY, OR",
+      "coordinates": [
+        -123.398405272586,
+        43.1331716903728
+      ],
+      "candidateRiver": "South Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 21.1,
+      "reachId": "167117219"
+    },
+    {
+      "stationId": "14312330",
+      "name": "SOUTH UMPQUA RIVER AT MELROSE, OR",
+      "coordinates": [
+        -123.4477,
+        43.25176111111111
+      ],
+      "candidateRiver": "South Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 36.4,
+      "reachId": "160856418"
+    },
+    {
+      "stationId": "14313200",
+      "name": "N.UMPQUA R ABV WHITE MULE CK, NR TOKETEE FALLS, OR",
+      "coordinates": [
+        -122.196979699772,
+        43.3240130568182
+      ],
+      "candidateRiver": "North Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 11.6,
+      "reachId": "121515343"
+    },
+    {
+      "stationId": "14313700",
+      "name": "N.UMPQUA R BLW WARM SPRINGS CK NR TOKETEE FALLS,OR",
+      "coordinates": [
+        -122.251982200508,
+        43.354845151961
+      ],
+      "candidateRiver": "North Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 4.8,
+      "reachId": "161860404"
+    },
+    {
+      "stationId": "14314500",
+      "name": "CLEARWATER RIVER ABV TRAP CK NR TOKETEE FALLS, OR",
+      "coordinates": [
+        -122.287259643039,
+        43.244290304363
+      ],
+      "candidateRiver": "Clearwater River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 2.0,
+      "reachId": "121516209"
+    },
+    {
+      "stationId": "14314700",
+      "name": "CLEARWATER R BLW MOWICH CREEK, NR TOKETEE FALLS,OR",
+      "coordinates": [
+        -122.338372496384,
+        43.2509563598572
+      ],
+      "candidateRiver": "Clearwater River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 11.9,
+      "reachId": "161860241"
+    },
+    {
+      "stationId": "14315500",
+      "name": "NORTH UMPQUA RIVER AT TOKETEE FALLS, OR",
+      "coordinates": [
+        -122.421708668121,
+        43.2637331689753
+      ],
+      "candidateRiver": "North Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 11.1,
+      "reachId": "161859671"
+    },
+    {
+      "stationId": "14315700",
+      "name": "N.UMPQUA R BLW SLIDE CK DAM NR TOKETEE FALLS, OR",
+      "coordinates": [
+        -122.449972222222,
+        43.2764166666667
+      ],
+      "candidateRiver": "North Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 29.9,
+      "reachId": "167118379"
+    },
+    {
+      "stationId": "14315950",
+      "name": "FISH CREEK ABV SLIPPER CREEK NR TOKETEE FALLS, OR",
+      "coordinates": [
+        -122.427541466301,
+        43.2112334655257
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14316455",
+      "name": "N.UMPQUA R BLW SODA SPGS RESV, NR TOKETEE FALLS,OR",
+      "coordinates": [
+        -122.498933881341,
+        43.3037322898502
+      ],
+      "candidateRiver": "North Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 21.9,
+      "reachId": "121514611"
+    },
+    {
+      "stationId": "14316460",
+      "name": "NORTH UMPQUA R AT SODA SPGS, NR TOKETEE FALLS, OR",
+      "coordinates": [
+        -122.51282321405,
+        43.3059544131044
+      ],
+      "candidateRiver": "North Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 49.2,
+      "reachId": "{FB66AE14-75BB-4B70-A821-4EFF35EA04B5}"
+    },
+    {
+      "stationId": "14316495",
+      "name": "BOULDER CREEK NEAR TOKETEE FALLS, OR",
+      "coordinates": [
+        -122.530323695907,
+        43.3034543030611
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14316500",
+      "name": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+      "coordinates": [
+        -122.536712668789,
+        43.2959542686382
+      ],
+      "candidateRiver": "North Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 10.5,
+      "reachId": "121514626"
+    },
+    {
+      "stationId": "14316700",
+      "name": "STEAMBOAT CREEK NEAR GLIDE, OR",
+      "coordinates": [
+        -122.728941540616,
+        43.3498420203775
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14317450",
+      "name": "NORTH UMPQUA RIVER NEAR IDLEYLD PARK, OR",
+      "coordinates": [
+        -122.99978360099,
+        43.3245630355272
+      ],
+      "candidateRiver": "North Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 66.8,
+      "reachId": "{35C82FC4-5C1D-40FA-9804-8896FEB27345}"
+    },
+    {
+      "stationId": "14317600",
+      "name": "ROCK CREEK NEAR GLIDE, OR",
+      "coordinates": [
+        -122.992591666667,
+        43.3466638888889
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14318000",
+      "name": "LITTLE RIVER AT PEEL, OR",
+      "coordinates": [
+        -123.026171618624,
+        43.252617900574
+      ],
+      "candidateRiver": "Little River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 23.0,
+      "reachId": "{CD43CFF9-F133-4C2C-B332-7CAEF0BA0C13}"
+    },
+    {
+      "stationId": "14319500",
+      "name": "NORTH UMPQUA RIVER AT WINCHESTER, OR",
+      "coordinates": [
+        -123.41154444444444,
+        43.270966666666666
+      ],
+      "candidateRiver": "North Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 57.2,
+      "reachId": "121511102"
+    },
+    {
+      "stationId": "14320934",
+      "name": "LITTLE WOLF CREEK NEAR TYEE, OR",
+      "coordinates": [
+        -123.586757291433,
+        43.4312266512488
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14321000",
+      "name": "UMPQUA RIVER NEAR ELKTON, OR",
+      "coordinates": [
+        -123.555372650329,
+        43.5859502208726
+      ],
+      "candidateRiver": "Umpqua River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 144.0,
+      "reachId": "{5BFC5319-1979-47D5-8494-4073B32D616F}"
+    },
+    {
+      "stationId": "14322810",
+      "name": "ELK CREEK AT ELKTON, OR",
+      "coordinates": [
+        -123.564639,
+        43.635222
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14325000",
+      "name": "SOUTH FORK COQUILLE RIVER AT POWERS, OR",
+      "coordinates": [
+        -124.070652117504,
+        42.8914990429098
+      ],
+      "candidateRiver": "South Fork Coquille River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 87.2,
+      "reachId": "124369883"
+    },
+    {
+      "stationId": "14326300",
+      "name": "MF COQUILLE RIVER BLW MCMULLEN CREEK NR BRIDGE, OR",
+      "coordinates": [
+        -124.04025,
+        43.03472222222222
+      ],
+      "candidateRiver": "Middle Fork Coquille River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 4.0,
+      "reachId": "{088BC219-1EA2-4FB1-8130-1029C45A4D8E}"
+    },
+    {
+      "stationId": "14326510",
+      "name": "SF COQUILLE RIVER AT MYRTLE POINT, OR",
+      "coordinates": [
+        -124.147047942059,
+        43.0656653658113
+      ],
+      "candidateRiver": "South Fork Coquille River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 14.1,
+      "reachId": "165967170"
+    },
+    {
+      "stationId": "14327000",
+      "name": "N FK COQUILLE R NR MYRTLE POINT, OR",
+      "coordinates": [
+        -124.107844444444,
+        43.0681777777778
+      ],
+      "candidateRiver": "North Fork Coquille River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 26.8,
+      "reachId": "165988090"
+    },
+    {
+      "stationId": "14327150",
+      "name": "SIXES RIVER AT SIXES, OR",
+      "coordinates": [
+        -124.48253611111112,
+        42.81700555555556
+      ],
+      "candidateRiver": "Sixes River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 14.6,
+      "reachId": "122481249"
+    },
+    {
+      "stationId": "14330000",
+      "name": "ROGUE RIVER BELOW PROSPECT, OR",
+      "coordinates": [
+        -122.516146965948,
+        42.7295718711378
+      ],
+      "candidateRiver": "Rogue River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 21.6,
+      "reachId": "142722731"
+    },
+    {
+      "stationId": "14332000",
+      "name": "SOUTH FORK ROGUE RIVER NEAR PROSPECT, OR",
+      "coordinates": [
+        -122.388611111111,
+        42.7063888888889
+      ],
+      "candidateRiver": "South Fork Rogue River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 19.8,
+      "reachId": "166075639"
+    },
+    {
+      "stationId": "14335072",
+      "name": "ROGUE R AT COLE M RIVERS F HATCHERY NR MCLEOD, OR",
+      "coordinates": [
+        -122.686388888889,
+        42.6658333333333
+      ],
+      "candidateRiver": "Rogue River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 0.3,
+      "reachId": "142718479"
+    },
+    {
+      "stationId": "14337500",
+      "name": "BIG BUTTE CREEK NEAR MCLEOD, OR",
+      "coordinates": [
+        -122.69142881941,
+        42.6512371979792
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14337600",
+      "name": "ROGUE RIVER NEAR MCLEOD, OR",
+      "coordinates": [
+        -122.715040824291,
+        42.6554035422131
+      ],
+      "candidateRiver": "Rogue River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 98.0,
+      "reachId": "166098927"
+    },
+    {
+      "stationId": "14338000",
+      "name": "ELK CREEK NEAR TRAIL, OR",
+      "coordinates": [
+        -122.741986705027,
+        42.6787364239436
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14339000",
+      "name": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+      "coordinates": [
+        -122.842820258394,
+        42.5248471084891
+      ],
+      "candidateRiver": "Rogue River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 2.6,
+      "reachId": "142729279"
+    },
+    {
+      "stationId": "14353000",
+      "name": "WEST FORK ASHLAND CREEK NEAR ASHLAND, OR",
+      "coordinates": [
+        -122.716698854592,
+        42.1487433607227
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14353500",
+      "name": "EAST FORK ASHLAND CREEK NEAR ASHLAND, OR",
+      "coordinates": [
+        -122.709476434358,
+        42.1526323128838
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14354200",
+      "name": "BEAR CREEK BELOW ASHLAND CREEK AT ASHLAND, OR",
+      "coordinates": [
+        -122.72480555555556,
+        42.2185
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14357500",
+      "name": "BEAR CREEK AT MEDFORD, OR",
+      "coordinates": [
+        -122.866705721586,
+        42.3240154663118
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14359000",
+      "name": "ROGUE RIVER AT RAYGOLD NEAR CENTRAL POINT, OR",
+      "coordinates": [
+        -122.987267808388,
+        42.4373459696809
+      ],
+      "candidateRiver": "Rogue River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 98.6,
+      "reachId": "165497330"
+    },
+    {
+      "stationId": "14361500",
+      "name": "ROGUE RIVER AT GRANTS PASS, OR",
+      "coordinates": [
+        -123.317836466831,
+        42.4303960655558
+      ],
+      "candidateRiver": "Rogue River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 91.0,
+      "reachId": "146297144"
+    },
+    {
+      "stationId": "14362000",
+      "name": "APPLEGATE RIVER NEAR COPPER, OR",
+      "coordinates": [
+        -123.111435757095,
+        42.0637361034008
+      ],
+      "candidateRiver": "Applegate River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 46.8,
+      "reachId": "145151713"
+    },
+    {
+      "stationId": "14362250",
+      "name": "STAR GULCH NEAR RUCH, OR",
+      "coordinates": [
+        -123.075323038036,
+        42.1540135494573
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14365400",
+      "name": "LITTLE APPLEGATE RIVER NEAR BUNCOM, OR",
+      "coordinates": [
+        -123.003097377524,
+        42.1781813360046
+      ],
+      "candidateRiver": "Little Applegate River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 10.8,
+      "reachId": "160598494"
+    },
+    {
+      "stationId": "14366000",
+      "name": "APPLEGATE RIVER NEAR APPLEGATE, OR",
+      "coordinates": [
+        -123.140048480701,
+        42.2415112977177
+      ],
+      "candidateRiver": "Applegate River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 146.6,
+      "reachId": "160594432"
+    },
+    {
+      "stationId": "14369500",
+      "name": "APPLEGATE RIVER NEAR WILDERVILLE, OR",
+      "coordinates": [
+        -123.406727581687,
+        42.3540058135007
+      ],
+      "candidateRiver": "Applegate River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 15.1,
+      "reachId": "{45A210DA-37DA-43A1-AB28-4872F829FE67}"
+    },
+    {
+      "stationId": "14372300",
+      "name": "ROGUE RIVER NEAR AGNESS, OR",
+      "coordinates": [
+        -124.062,
+        42.59277777777778
+      ],
+      "candidateRiver": "Rogue River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 27.5,
+      "reachId": "146280883"
+    },
+    {
+      "stationId": "14375100",
+      "name": "SUCKER CREEK BLW LITTLE GRAYBACK CK, NR HOLLAND,OR",
+      "coordinates": [
+        -123.478950940512,
+        42.1595610471584
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14377100",
+      "name": "ILLINOIS RIVER NEAR KERBY, OR",
+      "coordinates": [
+        -123.663680054679,
+        42.2317793628646
+      ],
+      "candidateRiver": "Illinois River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 60.5,
+      "reachId": "139855301"
+    },
+    {
+      "stationId": "14378200",
+      "name": "ILLINOIS RIVER NEAR AGNESS, OR",
+      "coordinates": [
+        -124.05191388888889,
+        42.54487777777778
+      ],
+      "candidateRiver": "Illinois River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 3.2,
+      "reachId": "139854208"
+    },
+    {
+      "stationId": "14400000",
+      "name": "CHETCO RIVER NEAR BROOKINGS, OR",
+      "coordinates": [
+        -124.187310699326,
+        42.1234427753382
+      ],
+      "candidateRiver": "Chetco River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 40.0,
+      "reachId": "163293840"
+    },
+    {
+      "stationId": "420451121510000",
+      "name": "KLAMATH STRAITS DRAIN NEAR HIGHWAY 97, OR",
+      "coordinates": [
+        -121.85,
+        42.0808333333333
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "420741121554001",
+      "name": "KLAMATH RIVER ABV KENO DAM, AT KENO - BOTTOM",
+      "coordinates": [
+        -121.927777777778,
+        42.1280555555556
+      ],
+      "candidateRiver": "Klamath River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 69.2,
+      "reachId": "84046993"
+    },
+    {
+      "stationId": "420833121402000",
+      "name": "LOST RIVER AT WILSON DAM, AT HENLEY, OR",
+      "coordinates": [
+        -121.67218611111112,
+        42.14258888888889
+      ],
+      "candidateRiver": "Lost River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 21.9,
+      "reachId": "165867907"
+    },
+    {
+      "stationId": "420853121505500",
+      "name": "KLAMATH RIVER AT MILLER ISLAND BOAT RAMP, OR",
+      "coordinates": [
+        -121.848611111111,
+        42.1480555555556
+      ],
+      "candidateRiver": "Klamath River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 11.5,
+      "reachId": "84046915"
+    },
+    {
+      "stationId": "420853121505501",
+      "name": "KLAMATH RIVER AT MILLER ISLAND BOAT RAMP-BOTTOM",
+      "coordinates": [
+        -121.848611111111,
+        42.1480555555556
+      ],
+      "candidateRiver": "Klamath River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 11.5,
+      "reachId": "84046915"
+    },
+    {
+      "stationId": "421015121471800",
+      "name": "LOST RIVER DIVERSION CHANNEL NR KLAMATH RIVER, OR",
+      "coordinates": [
+        -121.788333333333,
+        42.1708333333333
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "421401121480900",
+      "name": "LINK RIVER DAM",
+      "coordinates": [
+        -121.8025,
+        42.2336111111111
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "452230122512201",
+      "name": "CHICKEN CREEK AT SCHOLLS-SHERWOOD HWY, SHERWOOD OR",
+      "coordinates": [
+        -122.857254312877,
+        45.3748654219495
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "452731123092100",
+      "name": "SCOGGINS CREEK NEAR SW OLD HWY 47, NEAR GASTON, OR",
+      "coordinates": [
+        -123.155916666667,
+        45.4586111111111
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "453030122560101",
+      "name": "ROCK CREEK AT BROOKWOOD AVENUE, HILLSBORO, OR",
+      "coordinates": [
+        -122.9335,
+        45.5081944444444
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "453040123065201",
+      "name": "GALES CREEK AT OLD HWY 47, FOREST GROVE, OR",
+      "coordinates": [
+        -123.115665966442,
+        45.5108779981132
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "453630122021400",
+      "name": "COLUMBIA RIVER, LEFT BANK, NEAR DODSON, OR",
+      "coordinates": [
+        -122.038417439525,
+        45.6081730522466
+      ],
+      "candidateRiver": "Columbia River",
+      "association": "unmatched: candidate river more than 250 m away",
+      "nearestCandidateMeters": 305.4
+    },
+    {
+      "stationId": "14246900",
+      "name": "COLUMBIA RIVER AT PORT WESTWARD, NEAR QUINCY, OR",
+      "coordinates": [
+        -123.183453932368,
+        46.1812213607103
+      ],
+      "candidateRiver": "Columbia River",
+      "association": "unmatched: candidate river more than 250 m away",
+      "nearestCandidateMeters": 251.1
+    },
+    {
+      "stationId": "442453122394900",
+      "name": "FOSTER LAKE BELOW GEDNEY CREEK, AT FOSTER, OR",
+      "coordinates": [
+        -122.663616666667,
+        44.4148361111111
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "14211720",
+      "name": "WILLAMETTE RIVER AT PORTLAND, OR",
+      "coordinates": [
+        -122.669166666667,
+        45.5175
+      ],
+      "candidateRiver": "Willamette River",
+      "association": "name and spatial proximity",
+      "nearestCandidateMeters": 33.9,
+      "reachId": "{09E54290-6985-4737-846C-15A8F57C1D6B}"
+    },
+    {
+      "stationId": "420448121503100",
+      "name": "KLAMATH STRAITS DRAIN ABOVE F-FF PUMPS, WORDEN, OR",
+      "coordinates": [
+        -121.841944444444,
+        42.0798888888889
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    },
+    {
+      "stationId": "444306122144600",
+      "name": "DETROIT LAKE AT LOG BOOM BEHIND DETROIT DAM, OR",
+      "coordinates": [
+        -122.246138888889,
+        44.7183194444444
+      ],
+      "candidateRiver": null,
+      "association": "not inferred"
+    }
+  ]
+}

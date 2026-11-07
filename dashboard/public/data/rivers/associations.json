@@ -1,0 +1,1685 @@
+{
+  "10387110": {
+    "river": "Chewaucan River",
+    "gnisId": "01139623",
+    "reachCode": "17120006001561",
+    "permanentId": "164383320",
+    "distanceMeters": 33.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "10396000": {
+    "river": "Donner und Blitzen River",
+    "gnisId": "01120027",
+    "reachCode": "17120003000867",
+    "permanentId": "147549334",
+    "distanceMeters": 19.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11493500": {
+    "river": "Williamson River",
+    "gnisId": "01152398",
+    "reachCode": "18010201000943",
+    "permanentId": "137192002",
+    "distanceMeters": 13.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11501000": {
+    "river": "Sprague River",
+    "gnisId": "01150146",
+    "reachCode": "18010202001433",
+    "permanentId": "164380752",
+    "distanceMeters": 38.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11502500": {
+    "river": "Williamson River",
+    "gnisId": "01152398",
+    "reachCode": "18010201001094",
+    "permanentId": "164376027",
+    "distanceMeters": 12.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11504115": {
+    "river": "Wood River",
+    "gnisId": "01161600",
+    "reachCode": "18010203003522",
+    "permanentId": "164315225",
+    "distanceMeters": 14.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11507500": {
+    "river": "Link River",
+    "gnisId": "01161418",
+    "reachCode": "18010204002972",
+    "permanentId": "{6A3E28E0-812F-4067-9DDB-6AF81A20872C}",
+    "distanceMeters": 109.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11507501": {
+    "river": "Link River",
+    "gnisId": "01161418",
+    "reachCode": "18010204002972",
+    "permanentId": "{E1DBE6A3-1504-42EF-B060-CB62A77A62DE}",
+    "distanceMeters": 5.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11508600": {
+    "river": "Klamath River",
+    "gnisId": "00266887",
+    "reachCode": "18010204002564",
+    "permanentId": "165867876",
+    "distanceMeters": 98.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11508700": {
+    "river": "Klamath River",
+    "gnisId": "00266887",
+    "reachCode": "18010204002564",
+    "permanentId": "84047111",
+    "distanceMeters": 99.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11509370": {
+    "river": "Klamath River",
+    "gnisId": "00266887",
+    "reachCode": "18010204011387",
+    "permanentId": "84046993",
+    "distanceMeters": 8.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11509390": {
+    "river": "Klamath River",
+    "gnisId": "00266887",
+    "reachCode": "18010206011827",
+    "permanentId": "165549380",
+    "distanceMeters": 11.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11509500": {
+    "river": "Klamath River",
+    "gnisId": "00266887",
+    "reachCode": "18010206004072",
+    "permanentId": "165549415",
+    "distanceMeters": 16.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "11510700": {
+    "river": "Klamath River",
+    "gnisId": "00266887",
+    "reachCode": "18010206000144",
+    "permanentId": "165550822",
+    "distanceMeters": 47.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "13181000": {
+    "river": "Owyhee River",
+    "gnisId": "01147319",
+    "reachCode": "17050107000032",
+    "permanentId": "165179048",
+    "distanceMeters": 26.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "13183000": {
+    "river": "Owyhee River",
+    "gnisId": "01147319",
+    "reachCode": "17050110002795",
+    "permanentId": "158456239",
+    "distanceMeters": 31.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "13215480": {
+    "river": "South Fork Malheur River",
+    "gnisId": "01127302",
+    "reachCode": "17050116003935",
+    "permanentId": "162990875",
+    "distanceMeters": 25.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "13233300": {
+    "river": "Malheur River",
+    "gnisId": "01145769",
+    "reachCode": "17050117000378",
+    "permanentId": "162727955",
+    "distanceMeters": 18.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "13325000": {
+    "river": "East Fork Wallowa River",
+    "gnisId": "01141614",
+    "reachCode": "17060105004397",
+    "permanentId": "142132447",
+    "distanceMeters": 4.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "13331500": {
+    "river": "Minam River",
+    "gnisId": "01146303",
+    "reachCode": "17060105000018",
+    "permanentId": "161231927",
+    "distanceMeters": 21.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "13333000": {
+    "river": "Grande Ronde River",
+    "gnisId": "01505215",
+    "reachCode": "17060106000060",
+    "permanentId": "109440274",
+    "distanceMeters": 38.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14020000": {
+    "river": "Umatilla River",
+    "gnisId": "01157874",
+    "reachCode": "17070103000421",
+    "permanentId": "145366742",
+    "distanceMeters": 22.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14020850": {
+    "river": "Umatilla River",
+    "gnisId": "01157874",
+    "reachCode": "17070103000327",
+    "permanentId": "145368698",
+    "distanceMeters": 30.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14033500": {
+    "river": "Umatilla River",
+    "gnisId": "01157874",
+    "reachCode": "17070103004295",
+    "permanentId": "145368485",
+    "distanceMeters": 30.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14038530": {
+    "river": "John Day River",
+    "gnisId": "01144304",
+    "reachCode": "17070201000419",
+    "permanentId": "144673897",
+    "distanceMeters": 17.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14043840": {
+    "river": "Middle Fork John Day River",
+    "gnisId": "01146148",
+    "reachCode": "17070203001148",
+    "permanentId": "145122159",
+    "distanceMeters": 3.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14044000": {
+    "river": "Middle Fork John Day River",
+    "gnisId": "01146148",
+    "reachCode": "17070203000073",
+    "permanentId": "167137012",
+    "distanceMeters": 29.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14046000": {
+    "river": "North Fork John Day River",
+    "gnisId": "01146969",
+    "reachCode": "17070202000042",
+    "permanentId": "160239763",
+    "distanceMeters": 26.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14046500": {
+    "river": "John Day River",
+    "gnisId": "01144304",
+    "reachCode": "17070204000355",
+    "permanentId": "150743712",
+    "distanceMeters": 28.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14048000": {
+    "river": "John Day River",
+    "gnisId": "01144304",
+    "reachCode": "17070204000059",
+    "permanentId": "150742773",
+    "distanceMeters": 31.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14076500": {
+    "river": "Deschutes River",
+    "gnisId": "01140916",
+    "reachCode": "17070301003001",
+    "permanentId": "149195831",
+    "distanceMeters": 3.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14078260": {
+    "river": "South Fork Crooked River",
+    "gnisId": "01166713",
+    "reachCode": "17070303000019",
+    "permanentId": "162220383",
+    "distanceMeters": 15.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14087380": {
+    "river": "Crooked River",
+    "gnisId": "01140473",
+    "reachCode": "17070305000018",
+    "permanentId": "147702724",
+    "distanceMeters": 3.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14087400": {
+    "river": "Crooked River",
+    "gnisId": "01140473",
+    "reachCode": "17070305008469",
+    "permanentId": "147702712",
+    "distanceMeters": 8.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14091500": {
+    "river": "Metolius River",
+    "gnisId": "01146118",
+    "reachCode": "17070301000044",
+    "permanentId": "149195153",
+    "distanceMeters": 40.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14092500": {
+    "river": "Deschutes River",
+    "gnisId": "01140916",
+    "reachCode": "17070306008756",
+    "permanentId": "148977600",
+    "distanceMeters": 46.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14097100": {
+    "river": "Warm Springs River",
+    "gnisId": "01151904",
+    "reachCode": "17070306000296",
+    "permanentId": "148976817",
+    "distanceMeters": 3.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14101500": {
+    "river": "White River",
+    "gnisId": "01152240",
+    "reachCode": "17070306004715",
+    "permanentId": "148976970",
+    "distanceMeters": 12.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14102000": {
+    "river": "Deschutes River",
+    "gnisId": "01140916",
+    "reachCode": "17070306005177",
+    "permanentId": "148977070",
+    "distanceMeters": 14.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14103000": {
+    "river": "Deschutes River",
+    "gnisId": "01140916",
+    "reachCode": "17070306007122",
+    "permanentId": "148977299",
+    "distanceMeters": 15.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14105700": {
+    "river": "Columbia River",
+    "gnisId": "01140014",
+    "reachCode": "17070105000159",
+    "permanentId": "150813977",
+    "distanceMeters": 208.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14118500": {
+    "river": "West Fork Hood River",
+    "gnisId": "01152080",
+    "reachCode": "17070105000073",
+    "permanentId": "150813902",
+    "distanceMeters": 1.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14120000": {
+    "river": "Hood River",
+    "gnisId": "01143705",
+    "reachCode": "17070105000066",
+    "permanentId": "150813893",
+    "distanceMeters": 42.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14128870": {
+    "river": "Columbia River",
+    "gnisId": "01140014",
+    "reachCode": "17080001018860",
+    "permanentId": "{8B12CCA8-755D-44E8-A2BB-B03CE3BD0AEC}",
+    "distanceMeters": 159.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14137000": {
+    "river": "Sandy River",
+    "gnisId": "01167864",
+    "reachCode": "17080001000094",
+    "permanentId": "149953931",
+    "distanceMeters": 67.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14138720": {
+    "river": "Bull Run River",
+    "gnisId": "01138921",
+    "reachCode": "17080001000214",
+    "permanentId": "149944582",
+    "distanceMeters": 106.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14138850": {
+    "river": "Bull Run River",
+    "gnisId": "01138921",
+    "reachCode": "17080001000195",
+    "permanentId": "149955912",
+    "distanceMeters": 10.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14138900": {
+    "river": "North Fork Bull Run River",
+    "gnisId": "01146915",
+    "reachCode": "17080001016835",
+    "permanentId": "149955895",
+    "distanceMeters": 17.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14139800": {
+    "river": "South Fork Bull Run River",
+    "gnisId": "01149940",
+    "reachCode": "17080001009222",
+    "permanentId": "149956103",
+    "distanceMeters": 18.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14140000": {
+    "river": "Bull Run River",
+    "gnisId": "01138921",
+    "reachCode": "17080001000186",
+    "permanentId": "149956026",
+    "distanceMeters": 16.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14140020": {
+    "river": "Bull Run River",
+    "gnisId": "01138921",
+    "reachCode": "17080001000186",
+    "permanentId": "149956058",
+    "distanceMeters": 1.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14141500": {
+    "river": "Little Sandy River",
+    "gnisId": "01145250",
+    "reachCode": "17080001008773",
+    "permanentId": "{0E3C0085-191F-4932-9A62-D7C2A13EDBDB}",
+    "distanceMeters": 1.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14142500": {
+    "river": "Sandy River",
+    "gnisId": "01167864",
+    "reachCode": "17080001000088",
+    "permanentId": "149953793",
+    "distanceMeters": 44.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14144790": {
+    "river": "Middle Fork Willamette River",
+    "gnisId": "01146168",
+    "reachCode": "17090001000128",
+    "permanentId": "{C99ADFA2-F6C3-4CE8-8979-49CE0523AC28}",
+    "distanceMeters": 15.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14145500": {
+    "river": "Middle Fork Willamette River",
+    "gnisId": "01146168",
+    "reachCode": "17090001000098",
+    "permanentId": "165099389",
+    "distanceMeters": 12.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14147500": {
+    "river": "North Fork Middle Fork Willamette River",
+    "gnisId": "01146981",
+    "reachCode": "17090001000325",
+    "permanentId": "93074333",
+    "distanceMeters": 8.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14148000": {
+    "river": "Middle Fork Willamette River",
+    "gnisId": "01146168",
+    "reachCode": "17090001001250",
+    "permanentId": "165114244",
+    "distanceMeters": 103.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14149011": {
+    "river": "Middle Fork Willamette River",
+    "gnisId": "01146168",
+    "reachCode": "17090001007476",
+    "permanentId": "165108380",
+    "distanceMeters": 64.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14150000": {
+    "river": "Middle Fork Willamette River",
+    "gnisId": "01146168",
+    "reachCode": "17090001000072",
+    "permanentId": "93059911",
+    "distanceMeters": 12.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14152000": {
+    "river": "Middle Fork Willamette River",
+    "gnisId": "01146168",
+    "reachCode": "17090001003771",
+    "permanentId": "93063209",
+    "distanceMeters": 4.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14153500": {
+    "river": "Coast Fork Willamette River",
+    "gnisId": "01119059",
+    "reachCode": "17090002000039",
+    "permanentId": "{FF593DE6-CCBD-414C-A614-6192920471AB}",
+    "distanceMeters": 11.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14154500": {
+    "river": "Row River",
+    "gnisId": "01148810",
+    "reachCode": "17090002000101",
+    "permanentId": "144452188",
+    "distanceMeters": 47.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14155500": {
+    "river": "Row River",
+    "gnisId": "01148810",
+    "reachCode": "17090002000096",
+    "permanentId": "{528425F8-14D2-4141-ADE9-9D7FE89FB133}",
+    "distanceMeters": 46.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14157500": {
+    "river": "Coast Fork Willamette River",
+    "gnisId": "01119059",
+    "reachCode": "17090002000008",
+    "permanentId": "144451918",
+    "distanceMeters": 10.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14158050": {
+    "river": "Willamette River",
+    "gnisId": "01158060",
+    "reachCode": "17090003000355",
+    "permanentId": "144428084",
+    "distanceMeters": 64.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14158100": {
+    "river": "Willamette River",
+    "gnisId": "01158060",
+    "reachCode": "17090003000354",
+    "permanentId": "144428083",
+    "distanceMeters": 21.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14158500": {
+    "river": "McKenzie River",
+    "gnisId": "01136527",
+    "reachCode": "17090004000310",
+    "permanentId": "161201913",
+    "distanceMeters": 93.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14158740": {
+    "river": "McKenzie River",
+    "gnisId": "01136527",
+    "reachCode": "17090004007333",
+    "permanentId": "{DEC3560F-ABC4-4C2E-AFDA-76D383437F3D}",
+    "distanceMeters": 15.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14158790": {
+    "river": "Smith River",
+    "gnisId": "01149764",
+    "reachCode": "17090004007312",
+    "permanentId": "161202319",
+    "distanceMeters": 22.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14158798": {
+    "river": "Smith River",
+    "gnisId": "01149764",
+    "reachCode": "17090004001150",
+    "permanentId": "161202412",
+    "distanceMeters": 22.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14158850": {
+    "river": "McKenzie River",
+    "gnisId": "01136527",
+    "reachCode": "17090004000307",
+    "permanentId": "108064951",
+    "distanceMeters": 2.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14159110": {
+    "river": "McKenzie River",
+    "gnisId": "01136527",
+    "reachCode": "17090004000246",
+    "permanentId": "108046023",
+    "distanceMeters": 15.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14159130": {
+    "river": "South Fork McKenzie River",
+    "gnisId": "01149990",
+    "reachCode": "17090004000201",
+    "permanentId": "161214560",
+    "distanceMeters": 21.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14159200": {
+    "river": "South Fork McKenzie River",
+    "gnisId": "01149990",
+    "reachCode": "17090004000164",
+    "permanentId": "108049033",
+    "distanceMeters": 5.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14159500": {
+    "river": "South Fork McKenzie River",
+    "gnisId": "01149990",
+    "reachCode": "17090004000162",
+    "permanentId": "161206340",
+    "distanceMeters": 52.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14161100": {
+    "river": "Blue River",
+    "gnisId": "01117862",
+    "reachCode": "17090004000327",
+    "permanentId": "{6AB00961-C91C-49AB-882A-DE74FC653D08}",
+    "distanceMeters": 26.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14162200": {
+    "river": "Blue River",
+    "gnisId": "01117862",
+    "reachCode": "17090004000319",
+    "permanentId": "{DAB01470-6E6D-4AD2-9B7C-1F0A71559EBA}",
+    "distanceMeters": 42.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14162500": {
+    "river": "McKenzie River",
+    "gnisId": "01136527",
+    "reachCode": "17090004000118",
+    "permanentId": "161192473",
+    "distanceMeters": 62.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14163150": {
+    "river": "McKenzie River",
+    "gnisId": "01136527",
+    "reachCode": "17090004001383",
+    "permanentId": "161178915",
+    "distanceMeters": 27.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14163900": {
+    "river": "McKenzie River",
+    "gnisId": "01136527",
+    "reachCode": "17090004000078",
+    "permanentId": "161167838",
+    "distanceMeters": 48.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14164900": {
+    "river": "McKenzie River",
+    "gnisId": "01136527",
+    "reachCode": "17090004005120",
+    "permanentId": "108063331",
+    "distanceMeters": 48.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14165000": {
+    "river": "Mohawk River",
+    "gnisId": "01124279",
+    "reachCode": "17090004000366",
+    "permanentId": "108044827",
+    "distanceMeters": 21.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14165500": {
+    "river": "McKenzie River",
+    "gnisId": "01136527",
+    "reachCode": "17090004000047",
+    "permanentId": "161167755",
+    "distanceMeters": 79.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14166000": {
+    "river": "Willamette River",
+    "gnisId": "01158060",
+    "reachCode": "17090003000326",
+    "permanentId": "144428060",
+    "distanceMeters": 83.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14166500": {
+    "river": "Long Tom River",
+    "gnisId": "01123452",
+    "reachCode": "17090003000248",
+    "permanentId": "159854057",
+    "distanceMeters": 42.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14169000": {
+    "river": "Long Tom River",
+    "gnisId": "01123452",
+    "reachCode": "17090003004641",
+    "permanentId": "159852157",
+    "distanceMeters": 11.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14170000": {
+    "river": "Long Tom River",
+    "gnisId": "01123452",
+    "reachCode": "17090003004004",
+    "permanentId": "144428214",
+    "distanceMeters": 11.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14171000": {
+    "river": "Marys River",
+    "gnisId": "01145861",
+    "reachCode": "17090003000141",
+    "permanentId": "144427991",
+    "distanceMeters": 13.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14171600": {
+    "river": "Willamette River",
+    "gnisId": "01158060",
+    "reachCode": "17090003000133",
+    "permanentId": "144427986",
+    "distanceMeters": 55.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14173500": {
+    "river": "Calapooia River",
+    "gnisId": "01118456",
+    "reachCode": "17090003000397",
+    "permanentId": "144428091",
+    "distanceMeters": 11.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14174000": {
+    "river": "Willamette River",
+    "gnisId": "01158060",
+    "reachCode": "17090003000119",
+    "permanentId": "144427978",
+    "distanceMeters": 46.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14174450": {
+    "river": "North Santiam River",
+    "gnisId": "01147060",
+    "reachCode": "17090005000113",
+    "permanentId": "160052053",
+    "distanceMeters": 1.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14178000": {
+    "river": "North Santiam River",
+    "gnisId": "01147060",
+    "reachCode": "17090005000094",
+    "permanentId": "123420344",
+    "distanceMeters": 66.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14179000": {
+    "river": "Breitenbush River",
+    "gnisId": "01138594",
+    "reachCode": "17090005000142",
+    "permanentId": "160081108",
+    "distanceMeters": 26.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14180520": {
+    "river": "North Santiam River",
+    "gnisId": "01147060",
+    "reachCode": "17090005012461",
+    "permanentId": "123420992",
+    "distanceMeters": 0.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14181500": {
+    "river": "North Santiam River",
+    "gnisId": "01147060",
+    "reachCode": "17090005000070",
+    "permanentId": "160069919",
+    "distanceMeters": 31.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14181650": {
+    "river": "North Santiam River",
+    "gnisId": "01147060",
+    "reachCode": "17090005000065",
+    "permanentId": "160070252",
+    "distanceMeters": 25.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14181900": {
+    "river": "Little North Santiam River",
+    "gnisId": "01145216",
+    "reachCode": "17090005000215",
+    "permanentId": "{893ED183-86E9-493A-B4C0-CB69F82BA6A6}",
+    "distanceMeters": 8.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14182500": {
+    "river": "Little North Santiam River",
+    "gnisId": "01145216",
+    "reachCode": "17090005000193",
+    "permanentId": "{07E7A8FC-3AAF-449C-9BDC-2C95A4381D79}",
+    "distanceMeters": 16.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14183000": {
+    "river": "North Santiam River",
+    "gnisId": "01147060",
+    "reachCode": "17090005000057",
+    "permanentId": "160053843",
+    "distanceMeters": 28.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14183020": {
+    "river": "North Santiam River",
+    "gnisId": "01147060",
+    "reachCode": "17090005000056",
+    "permanentId": "123426749",
+    "distanceMeters": 32.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14184100": {
+    "river": "North Santiam River",
+    "gnisId": "01147060",
+    "reachCode": "17090005007864",
+    "permanentId": "160052275",
+    "distanceMeters": 27.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14185000": {
+    "river": "South Santiam River",
+    "gnisId": "01150077",
+    "reachCode": "17090006000085",
+    "permanentId": "86596312",
+    "distanceMeters": 29.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14185600": {
+    "river": "Middle Santiam River",
+    "gnisId": "01146182",
+    "reachCode": "17090006000162",
+    "permanentId": "160156969",
+    "distanceMeters": 3.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14185800": {
+    "river": "Middle Santiam River",
+    "gnisId": "01146182",
+    "reachCode": "17090006033563",
+    "permanentId": "160188660",
+    "distanceMeters": 6.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14186200": {
+    "river": "Middle Santiam River",
+    "gnisId": "01146182",
+    "reachCode": "17090006000892",
+    "permanentId": "86601190",
+    "distanceMeters": 6.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14186700": {
+    "river": "South Santiam River",
+    "gnisId": "01150077",
+    "reachCode": "17090006000076",
+    "permanentId": "160139881",
+    "distanceMeters": 34.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14187200": {
+    "river": "South Santiam River",
+    "gnisId": "01150077",
+    "reachCode": "17090006000052",
+    "permanentId": "160141413",
+    "distanceMeters": 68.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14187500": {
+    "river": "South Santiam River",
+    "gnisId": "01150077",
+    "reachCode": "17090006000044",
+    "permanentId": "160141254",
+    "distanceMeters": 71.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14188570": {
+    "river": "South Santiam River",
+    "gnisId": "01150077",
+    "reachCode": "17090006000041",
+    "permanentId": "86610242",
+    "distanceMeters": 37.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14189000": {
+    "river": "Santiam River",
+    "gnisId": "01163256",
+    "reachCode": "17090005000030",
+    "permanentId": "123417104",
+    "distanceMeters": 35.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14189050": {
+    "river": "Santiam River",
+    "gnisId": "01163256",
+    "reachCode": "17090005000030",
+    "permanentId": "123417033",
+    "distanceMeters": 47.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14190500": {
+    "river": "Luckiamute River",
+    "gnisId": "01163114",
+    "reachCode": "17090003003223",
+    "permanentId": "159844842",
+    "distanceMeters": 90.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14190610": {
+    "river": "Luckiamute River",
+    "gnisId": "01163114",
+    "reachCode": "17090003000025",
+    "permanentId": "144427681",
+    "distanceMeters": 10.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14191000": {
+    "river": "Willamette River",
+    "gnisId": "01158060",
+    "reachCode": "17090007000072",
+    "permanentId": "147814367",
+    "distanceMeters": 62.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14192015": {
+    "river": "Willamette River",
+    "gnisId": "01158060",
+    "reachCode": "17090007003243",
+    "permanentId": "147814552",
+    "distanceMeters": 113.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14194150": {
+    "river": "South Yamhill River",
+    "gnisId": "01163286",
+    "reachCode": "17090008000079",
+    "permanentId": "162375314",
+    "distanceMeters": 24.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14197900": {
+    "river": "Willamette River",
+    "gnisId": "01158060",
+    "reachCode": "17090007000169",
+    "permanentId": "147814397",
+    "distanceMeters": 97.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14198500": {
+    "river": "Molalla River",
+    "gnisId": "01146388",
+    "reachCode": "17090009000175",
+    "permanentId": "{D07C2D19-74D1-4505-BE0C-D6B771467A60}",
+    "distanceMeters": 7.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14200000": {
+    "river": "Molalla River",
+    "gnisId": "01146388",
+    "reachCode": "17090009000149",
+    "permanentId": "123690837",
+    "distanceMeters": 39.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14201340": {
+    "river": "Pudding River",
+    "gnisId": "01125688",
+    "reachCode": "17090009000044",
+    "permanentId": "162623348",
+    "distanceMeters": 47.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14202000": {
+    "river": "Pudding River",
+    "gnisId": "01125688",
+    "reachCode": "17090009000039",
+    "permanentId": "123690945",
+    "distanceMeters": 62.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14203500": {
+    "river": "Tualatin River",
+    "gnisId": "01158044",
+    "reachCode": "17090010000152",
+    "permanentId": "142396013",
+    "distanceMeters": 36.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14206241": {
+    "river": "Tualatin River",
+    "gnisId": "01158044",
+    "reachCode": "17090010018350",
+    "permanentId": "{6D3B832A-9681-4F97-8694-F642C891D859}",
+    "distanceMeters": 35.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14206694": {
+    "river": "Tualatin River",
+    "gnisId": "01158044",
+    "reachCode": "17090010000040",
+    "permanentId": "{CF8F7579-DCDC-4BFD-B04A-FD37D5BE9A01}",
+    "distanceMeters": 5.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14207200": {
+    "river": "Tualatin River",
+    "gnisId": "01158044",
+    "reachCode": "17090010000024",
+    "permanentId": "142402860",
+    "distanceMeters": 6.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14207500": {
+    "river": "Tualatin River",
+    "gnisId": "01158044",
+    "reachCode": "17090010000022",
+    "permanentId": "142402856",
+    "distanceMeters": 31.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14208000": {
+    "river": "Clackamas River",
+    "gnisId": "01162899",
+    "reachCode": "17090011000192",
+    "permanentId": "160985151",
+    "distanceMeters": 9.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14209500": {
+    "river": "Clackamas River",
+    "gnisId": "01162899",
+    "reachCode": "17090011000106",
+    "permanentId": "160984873",
+    "distanceMeters": 3.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14209710": {
+    "river": "Clackamas River",
+    "gnisId": "01162899",
+    "reachCode": "17090011000088",
+    "permanentId": "160985202",
+    "distanceMeters": 31.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14210000": {
+    "river": "Clackamas River",
+    "gnisId": "01162899",
+    "reachCode": "17090011000079",
+    "permanentId": "125585792",
+    "distanceMeters": 84.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14211010": {
+    "river": "Clackamas River",
+    "gnisId": "01162899",
+    "reachCode": "17090011018178",
+    "permanentId": "166809400",
+    "distanceMeters": 13.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14299800": {
+    "river": "Nehalem River",
+    "gnisId": "01124640",
+    "reachCode": "17100202000150",
+    "permanentId": "145983085",
+    "distanceMeters": 31.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14300350": {
+    "river": "Nehalem River",
+    "gnisId": "01124640",
+    "reachCode": "17100202000080",
+    "permanentId": "145982956",
+    "distanceMeters": 16.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14301000": {
+    "river": "Nehalem River",
+    "gnisId": "01124640",
+    "reachCode": "17100202015954",
+    "permanentId": "159818890",
+    "distanceMeters": 22.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14301500": {
+    "river": "Wilson River",
+    "gnisId": "01163358",
+    "reachCode": "17100203000155",
+    "permanentId": "165010226",
+    "distanceMeters": 44.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14302020": {
+    "river": "Wilson River",
+    "gnisId": "01163358",
+    "reachCode": "17100203000152",
+    "permanentId": "105842798",
+    "distanceMeters": 34.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14302480": {
+    "river": "Trask River",
+    "gnisId": "01151402",
+    "reachCode": "17100203000117",
+    "permanentId": "165009789",
+    "distanceMeters": 43.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14302900": {
+    "river": "Nestucca River",
+    "gnisId": "01163172",
+    "reachCode": "17100203000070",
+    "permanentId": "{9C7101E1-B9EA-40C5-BCC5-0844D29083D4}",
+    "distanceMeters": 8.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14303600": {
+    "river": "Nestucca River",
+    "gnisId": "01163172",
+    "reachCode": "17100203000041",
+    "permanentId": "165019918",
+    "distanceMeters": 8.7,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14305500": {
+    "river": "Siletz River",
+    "gnisId": "01149473",
+    "reachCode": "17100204000120",
+    "permanentId": "159222192",
+    "distanceMeters": 1.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14305800": {
+    "river": "Siletz River",
+    "gnisId": "01149473",
+    "reachCode": "17100204000116",
+    "permanentId": "159222050",
+    "distanceMeters": 50.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14306500": {
+    "river": "Alsea River",
+    "gnisId": "01137172",
+    "reachCode": "17100205000090",
+    "permanentId": "162122995",
+    "distanceMeters": 60.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14306950": {
+    "river": "Siuslaw River",
+    "gnisId": "01149557",
+    "reachCode": "17100206000086",
+    "permanentId": "{F4E53F5D-2CBB-4485-8A56-FF86A4F643F0}",
+    "distanceMeters": 6.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14307620": {
+    "river": "Siuslaw River",
+    "gnisId": "01149557",
+    "reachCode": "17100206000048",
+    "permanentId": "161950980",
+    "distanceMeters": 8.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14308000": {
+    "river": "South Umpqua River",
+    "gnisId": "01150090",
+    "reachCode": "17100302000336",
+    "permanentId": "124315710",
+    "distanceMeters": 78.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14308910": {
+    "river": "South Umpqua River",
+    "gnisId": "01150090",
+    "reachCode": "17100302000252",
+    "permanentId": "124315641",
+    "distanceMeters": 1.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14312000": {
+    "river": "South Umpqua River",
+    "gnisId": "01150090",
+    "reachCode": "17100302000019",
+    "permanentId": "167117219",
+    "distanceMeters": 21.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14312330": {
+    "river": "South Umpqua River",
+    "gnisId": "01150090",
+    "reachCode": "17100302000012",
+    "permanentId": "160856418",
+    "distanceMeters": 36.4,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14313200": {
+    "river": "North Umpqua River",
+    "gnisId": "01147070",
+    "reachCode": "17100301000253",
+    "permanentId": "121515343",
+    "distanceMeters": 11.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14313700": {
+    "river": "North Umpqua River",
+    "gnisId": "01147070",
+    "reachCode": "17100301000250",
+    "permanentId": "161860404",
+    "distanceMeters": 4.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14314500": {
+    "river": "Clearwater River",
+    "gnisId": "01139812",
+    "reachCode": "17100301000219",
+    "permanentId": "121516209",
+    "distanceMeters": 2.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14314700": {
+    "river": "Clearwater River",
+    "gnisId": "01139812",
+    "reachCode": "17100301000217",
+    "permanentId": "161860241",
+    "distanceMeters": 11.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14315500": {
+    "river": "North Umpqua River",
+    "gnisId": "01147070",
+    "reachCode": "17100301014486",
+    "permanentId": "161859671",
+    "distanceMeters": 11.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14315700": {
+    "river": "North Umpqua River",
+    "gnisId": "01147070",
+    "reachCode": "17100301004883",
+    "permanentId": "167118379",
+    "distanceMeters": 29.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14316455": {
+    "river": "North Umpqua River",
+    "gnisId": "01147070",
+    "reachCode": "17100301000185",
+    "permanentId": "121514611",
+    "distanceMeters": 21.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14316460": {
+    "river": "North Umpqua River",
+    "gnisId": "01147070",
+    "reachCode": "17100301000185",
+    "permanentId": "{FB66AE14-75BB-4B70-A821-4EFF35EA04B5}",
+    "distanceMeters": 49.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14316500": {
+    "river": "North Umpqua River",
+    "gnisId": "01147070",
+    "reachCode": "17100301000183",
+    "permanentId": "121514626",
+    "distanceMeters": 10.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14317450": {
+    "river": "North Umpqua River",
+    "gnisId": "01147070",
+    "reachCode": "17100301000110",
+    "permanentId": "{35C82FC4-5C1D-40FA-9804-8896FEB27345}",
+    "distanceMeters": 66.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14318000": {
+    "river": "Little River",
+    "gnisId": "01145235",
+    "reachCode": "17100301000046",
+    "permanentId": "{CD43CFF9-F133-4C2C-B332-7CAEF0BA0C13}",
+    "distanceMeters": 23.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14319500": {
+    "river": "North Umpqua River",
+    "gnisId": "01147070",
+    "reachCode": "17100301001050",
+    "permanentId": "121511102",
+    "distanceMeters": 57.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14321000": {
+    "river": "Umpqua River",
+    "gnisId": "01151643",
+    "reachCode": "17100303000108",
+    "permanentId": "{5BFC5319-1979-47D5-8494-4073B32D616F}",
+    "distanceMeters": 144.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14325000": {
+    "river": "South Fork Coquille River",
+    "gnisId": "01149958",
+    "reachCode": "17100305000101",
+    "permanentId": "124369883",
+    "distanceMeters": 87.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14326300": {
+    "river": "Middle Fork Coquille River",
+    "gnisId": "01146140",
+    "reachCode": "17100305000169",
+    "permanentId": "{088BC219-1EA2-4FB1-8130-1029C45A4D8E}",
+    "distanceMeters": 4.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14326510": {
+    "river": "South Fork Coquille River",
+    "gnisId": "01149958",
+    "reachCode": "17100305000067",
+    "permanentId": "165967170",
+    "distanceMeters": 14.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14327000": {
+    "river": "North Fork Coquille River",
+    "gnisId": "01124760",
+    "reachCode": "17100305000275",
+    "permanentId": "165988090",
+    "distanceMeters": 26.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14327150": {
+    "river": "Sixes River",
+    "gnisId": "01149567",
+    "reachCode": "17100306000089",
+    "permanentId": "122481249",
+    "distanceMeters": 14.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14330000": {
+    "river": "Rogue River",
+    "gnisId": "01148698",
+    "reachCode": "17100307000311",
+    "permanentId": "142722731",
+    "distanceMeters": 21.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14332000": {
+    "river": "South Fork Rogue River",
+    "gnisId": "01150004",
+    "reachCode": "17100307000259",
+    "permanentId": "166075639",
+    "distanceMeters": 19.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14335072": {
+    "river": "Rogue River",
+    "gnisId": "01148698",
+    "reachCode": "17100307000232",
+    "permanentId": "142718479",
+    "distanceMeters": 0.3,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14337600": {
+    "river": "Rogue River",
+    "gnisId": "01148698",
+    "reachCode": "17100307000160",
+    "permanentId": "166098927",
+    "distanceMeters": 98.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14339000": {
+    "river": "Rogue River",
+    "gnisId": "01148698",
+    "reachCode": "17100307000138",
+    "permanentId": "142729279",
+    "distanceMeters": 2.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14359000": {
+    "river": "Rogue River",
+    "gnisId": "01148698",
+    "reachCode": "17100308047592",
+    "permanentId": "165497330",
+    "distanceMeters": 98.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14361500": {
+    "river": "Rogue River",
+    "gnisId": "01148698",
+    "reachCode": "17100308000014",
+    "permanentId": "146297144",
+    "distanceMeters": 91.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14362000": {
+    "river": "Applegate River",
+    "gnisId": "01137279",
+    "reachCode": "17100309000132",
+    "permanentId": "145151713",
+    "distanceMeters": 46.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14365400": {
+    "river": "Little Applegate River",
+    "gnisId": "01145070",
+    "reachCode": "17100309000202",
+    "permanentId": "160598494",
+    "distanceMeters": 10.8,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14366000": {
+    "river": "Applegate River",
+    "gnisId": "01137279",
+    "reachCode": "17100309002284",
+    "permanentId": "160594432",
+    "distanceMeters": 146.6,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14369500": {
+    "river": "Applegate River",
+    "gnisId": "01137279",
+    "reachCode": "17100309000023",
+    "permanentId": "{45A210DA-37DA-43A1-AB28-4872F829FE67}",
+    "distanceMeters": 15.1,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14372300": {
+    "river": "Rogue River",
+    "gnisId": "01148698",
+    "reachCode": "17100310000049",
+    "permanentId": "146280883",
+    "distanceMeters": 27.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14377100": {
+    "river": "Illinois River",
+    "gnisId": "01143993",
+    "reachCode": "17100311007529",
+    "permanentId": "139855301",
+    "distanceMeters": 60.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14378200": {
+    "river": "Illinois River",
+    "gnisId": "01143993",
+    "reachCode": "17100311001160",
+    "permanentId": "139854208",
+    "distanceMeters": 3.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14400000": {
+    "river": "Chetco River",
+    "gnisId": "01139619",
+    "reachCode": "17100312000053",
+    "permanentId": "163293840",
+    "distanceMeters": 40.0,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "420741121554001": {
+    "river": "Klamath River",
+    "gnisId": "00266887",
+    "reachCode": "18010204011387",
+    "permanentId": "84046993",
+    "distanceMeters": 69.2,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "420833121402000": {
+    "river": "Lost River",
+    "gnisId": "01123515",
+    "reachCode": "18010204003676",
+    "permanentId": "165867907",
+    "distanceMeters": 21.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "420853121505500": {
+    "river": "Klamath River",
+    "gnisId": "00266887",
+    "reachCode": "18010204002564",
+    "permanentId": "84046915",
+    "distanceMeters": 11.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "420853121505501": {
+    "river": "Klamath River",
+    "gnisId": "00266887",
+    "reachCode": "18010204002564",
+    "permanentId": "84046915",
+    "distanceMeters": 11.5,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  },
+  "14211720": {
+    "river": "Willamette River",
+    "gnisId": "01158060",
+    "reachCode": "17090012006672",
+    "permanentId": "{09E54290-6985-4737-846C-15A8F57C1D6B}",
+    "distanceMeters": 33.9,
+    "method": "normalized station waterbody name and nearest NHD segment within 250 m",
+    "review": "geographic association, not an official USGS network linkage"
+  }
+}

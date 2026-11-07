@@ -1,0 +1,1228 @@
+{
+  "source": "https://gis.wrd.state.or.us/server/rest/services/hydro/Hydro_NHD_Lakes_and_Streams_WGS84/MapServer/5",
+  "unavailable": [],
+  "rivers": [
+    {
+      "name": "Alsea River",
+      "file": "alsea-river.geojson",
+      "gnisIds": [
+        "01137172"
+      ],
+      "reaches": 305,
+      "bytes": 125057,
+      "bbox": [
+        -124.07742,
+        44.34105,
+        -123.6052,
+        44.43635
+      ]
+    },
+    {
+      "name": "Applegate River",
+      "file": "applegate-river.geojson",
+      "gnisIds": [
+        "01137279"
+      ],
+      "reaches": 262,
+      "bytes": 113212,
+      "bbox": [
+        -123.45745,
+        41.97286,
+        -123.04486,
+        42.42977
+      ]
+    },
+    {
+      "name": "Blue River",
+      "file": "blue-river.geojson",
+      "gnisIds": [
+        "01117862"
+      ],
+      "reaches": 144,
+      "bytes": 60270,
+      "bbox": [
+        -122.34472,
+        44.15318,
+        -122.17117,
+        44.29494
+      ]
+    },
+    {
+      "name": "Breitenbush River",
+      "file": "breitenbush-river.geojson",
+      "gnisIds": [
+        "01138594"
+      ],
+      "reaches": 130,
+      "bytes": 48518,
+      "bbox": [
+        -122.18197,
+        44.70877,
+        -121.96529,
+        44.78495
+      ]
+    },
+    {
+      "name": "Bull Run River",
+      "file": "bull-run-river.geojson",
+      "gnisIds": [
+        "01138921"
+      ],
+      "reaches": 232,
+      "bytes": 88479,
+      "bbox": [
+        -122.24815,
+        45.42411,
+        -121.81146,
+        45.51082
+      ]
+    },
+    {
+      "name": "Calapooia River",
+      "file": "calapooia-river.geojson",
+      "gnisIds": [
+        "01118456"
+      ],
+      "reaches": 318,
+      "bytes": 172521,
+      "bbox": [
+        -123.15362,
+        44.23107,
+        -122.32446,
+        44.63923
+      ]
+    },
+    {
+      "name": "Chetco River",
+      "file": "chetco-river.geojson",
+      "gnisIds": [
+        "01139619"
+      ],
+      "reaches": 280,
+      "bytes": 115148,
+      "bbox": [
+        -124.27161,
+        42.04345,
+        -123.86929,
+        42.30771
+      ]
+    },
+    {
+      "name": "Chewaucan River",
+      "file": "chewaucan-river.geojson",
+      "gnisIds": [
+        "01139623"
+      ],
+      "reaches": 128,
+      "bytes": 68403,
+      "bbox": [
+        -120.61029,
+        42.45136,
+        -120.24937,
+        42.70118
+      ]
+    },
+    {
+      "name": "Clackamas River",
+      "file": "clackamas-river.geojson",
+      "gnisIds": [
+        "01162899"
+      ],
+      "reaches": 487,
+      "bytes": 199567,
+      "bbox": [
+        -122.60827,
+        44.81744,
+        -121.79129,
+        45.40924
+      ]
+    },
+    {
+      "name": "Clearwater River",
+      "file": "clearwater-river.geojson",
+      "gnisIds": [
+        "01139812"
+      ],
+      "reaches": 34,
+      "bytes": 18626,
+      "bbox": [
+        -122.41934,
+        43.23933,
+        -122.19274,
+        43.26403
+      ]
+    },
+    {
+      "name": "Coast Fork Willamette River",
+      "file": "coast-fork-willamette-river.geojson",
+      "gnisIds": [
+        "01119059"
+      ],
+      "reaches": 142,
+      "bytes": 67263,
+      "bbox": [
+        -123.09062,
+        43.5959,
+        -122.95861,
+        44.02335
+      ]
+    },
+    {
+      "name": "Columbia River",
+      "file": "columbia-river.geojson",
+      "gnisIds": [
+        "01140014"
+      ],
+      "reaches": 536,
+      "bytes": 189684,
+      "bbox": [
+        -124.08301,
+        45.54403,
+        -118.94043,
+        46.27164
+      ]
+    },
+    {
+      "name": "Crooked River",
+      "file": "crooked-river.geojson",
+      "gnisIds": [
+        "00380093",
+        "01140473"
+      ],
+      "reaches": 531,
+      "bytes": 254906,
+      "bbox": [
+        -121.30223,
+        44.08457,
+        -116.65426,
+        44.95983
+      ]
+    },
+    {
+      "name": "Deschutes River",
+      "file": "deschutes-river.geojson",
+      "gnisIds": [
+        "01140916"
+      ],
+      "reaches": 723,
+      "bytes": 378229,
+      "bbox": [
+        -121.80363,
+        43.67482,
+        -120.82554,
+        45.63877
+      ]
+    },
+    {
+      "name": "Donner und Blitzen River",
+      "file": "donner-und-blitzen-river.geojson",
+      "gnisIds": [
+        "01120027"
+      ],
+      "reaches": 121,
+      "bytes": 86288,
+      "bbox": [
+        -118.89411,
+        42.53038,
+        -118.71117,
+        43.2929
+      ]
+    },
+    {
+      "name": "East Fork Wallowa River",
+      "file": "east-fork-wallowa-river.geojson",
+      "gnisIds": [
+        "01141614"
+      ],
+      "reaches": 43,
+      "bytes": 18240,
+      "bbox": [
+        -117.2119,
+        45.2095,
+        -117.19329,
+        45.27466
+      ]
+    },
+    {
+      "name": "Grande Ronde River",
+      "file": "grande-ronde-river.geojson",
+      "gnisIds": [
+        "01505215"
+      ],
+      "reaches": 643,
+      "bytes": 331018,
+      "bbox": [
+        -118.39748,
+        44.95866,
+        -116.97936,
+        46.08039
+      ]
+    },
+    {
+      "name": "Hood River",
+      "file": "hood-river.geojson",
+      "gnisIds": [
+        "01143705"
+      ],
+      "reaches": 30,
+      "bytes": 14931,
+      "bbox": [
+        -121.6348,
+        45.60525,
+        -121.50243,
+        45.71975
+      ]
+    },
+    {
+      "name": "Illinois River",
+      "file": "illinois-river.geojson",
+      "gnisIds": [
+        "01143993"
+      ],
+      "reaches": 293,
+      "bytes": 117569,
+      "bbox": [
+        -124.06655,
+        42.16082,
+        -123.65344,
+        42.55
+      ]
+    },
+    {
+      "name": "John Day River",
+      "file": "john-day-river.geojson",
+      "gnisIds": [
+        "01122449",
+        "01144304"
+      ],
+      "reaches": 1925,
+      "bytes": 761271,
+      "bbox": [
+        -123.7535,
+        44.24896,
+        -118.52655,
+        46.1826
+      ]
+    },
+    {
+      "name": "Klamath River",
+      "file": "klamath-river.geojson",
+      "gnisIds": [
+        "00266887"
+      ],
+      "reaches": 1224,
+      "bytes": 486046,
+      "bbox": [
+        -124.07929,
+        41.18574,
+        -121.7747,
+        42.21845
+      ]
+    },
+    {
+      "name": "Link River",
+      "file": "link-river.geojson",
+      "gnisIds": [
+        "01161418"
+      ],
+      "reaches": 4,
+      "bytes": 2324,
+      "bbox": [
+        -121.80228,
+        42.21845,
+        -121.78886,
+        42.23385
+      ]
+    },
+    {
+      "name": "Little Applegate River",
+      "file": "little-applegate-river.geojson",
+      "gnisIds": [
+        "01145070"
+      ],
+      "reaches": 178,
+      "bytes": 72966,
+      "bbox": [
+        -123.04493,
+        42.05303,
+        -122.80331,
+        42.19869
+      ]
+    },
+    {
+      "name": "Little North Santiam River",
+      "file": "little-north-santiam-river.geojson",
+      "gnisIds": [
+        "01145216"
+      ],
+      "reaches": 241,
+      "bytes": 121497,
+      "bbox": [
+        -122.60961,
+        44.78506,
+        -122.18637,
+        44.86021
+      ]
+    },
+    {
+      "name": "Little River",
+      "file": "little-river.geojson",
+      "gnisIds": [
+        "01123264",
+        "01145235"
+      ],
+      "reaches": 242,
+      "bytes": 119990,
+      "bbox": [
+        -123.10218,
+        43.18251,
+        -122.67903,
+        43.5959
+      ]
+    },
+    {
+      "name": "Little Sandy River",
+      "file": "little-sandy-river.geojson",
+      "gnisIds": [
+        "01145250"
+      ],
+      "reaches": 199,
+      "bytes": 85223,
+      "bbox": [
+        -122.17806,
+        45.40126,
+        -121.93259,
+        45.42002
+      ]
+    },
+    {
+      "name": "Long Tom River",
+      "file": "long-tom-river.geojson",
+      "gnisIds": [
+        "01123452"
+      ],
+      "reaches": 144,
+      "bytes": 77882,
+      "bbox": [
+        -123.46511,
+        44.04322,
+        -123.2401,
+        44.38623
+      ]
+    },
+    {
+      "name": "Lost River",
+      "file": "lost-river.geojson",
+      "gnisIds": [
+        "01123515"
+      ],
+      "reaches": 228,
+      "bytes": 109233,
+      "bbox": [
+        -121.69437,
+        41.90622,
+        -121.06868,
+        42.20196
+      ]
+    },
+    {
+      "name": "Luckiamute River",
+      "file": "luckiamute-river.geojson",
+      "gnisIds": [
+        "01163114"
+      ],
+      "reaches": 206,
+      "bytes": 106465,
+      "bbox": [
+        -123.59719,
+        44.6664,
+        -123.14704,
+        44.81936
+      ]
+    },
+    {
+      "name": "Malheur River",
+      "file": "malheur-river.geojson",
+      "gnisIds": [
+        "01145769"
+      ],
+      "reaches": 619,
+      "bytes": 315118,
+      "bbox": [
+        -118.6195,
+        43.55109,
+        -116.97467,
+        44.13504
+      ]
+    },
+    {
+      "name": "Marys River",
+      "file": "marys-river.geojson",
+      "gnisIds": [
+        "01145861"
+      ],
+      "reaches": 57,
+      "bytes": 47030,
+      "bbox": [
+        -123.57514,
+        44.51753,
+        -123.26075,
+        44.65411
+      ]
+    },
+    {
+      "name": "McKenzie River",
+      "file": "mckenzie-river.geojson",
+      "gnisIds": [
+        "01136527"
+      ],
+      "reaches": 307,
+      "bytes": 141808,
+      "bbox": [
+        -123.10763,
+        44.05292,
+        -121.99347,
+        44.37614
+      ]
+    },
+    {
+      "name": "Metolius River",
+      "file": "metolius-river.geojson",
+      "gnisIds": [
+        "01146118"
+      ],
+      "reaches": 194,
+      "bytes": 82395,
+      "bbox": [
+        -121.64787,
+        44.43443,
+        -121.28647,
+        44.67542
+      ]
+    },
+    {
+      "name": "Middle Fork Coquille River",
+      "file": "middle-fork-coquille-river.geojson",
+      "gnisIds": [
+        "01146140"
+      ],
+      "reaches": 297,
+      "bytes": 152746,
+      "bbox": [
+        -124.11733,
+        42.96148,
+        -123.66367,
+        43.10637
+      ]
+    },
+    {
+      "name": "Middle Fork John Day River",
+      "file": "middle-fork-john-day-river.geojson",
+      "gnisIds": [
+        "01146148"
+      ],
+      "reaches": 363,
+      "bytes": 173594,
+      "bbox": [
+        -119.30199,
+        44.58244,
+        -118.42949,
+        44.91588
+      ]
+    },
+    {
+      "name": "Middle Fork Willamette River",
+      "file": "middle-fork-willamette-river.geojson",
+      "gnisIds": [
+        "01146168"
+      ],
+      "reaches": 426,
+      "bytes": 181971,
+      "bbox": [
+        -123.02359,
+        43.41464,
+        -122.12648,
+        44.02902
+      ]
+    },
+    {
+      "name": "Middle Santiam River",
+      "file": "middle-santiam-river.geojson",
+      "gnisIds": [
+        "01146182"
+      ],
+      "reaches": 378,
+      "bytes": 138942,
+      "bbox": [
+        -122.63604,
+        44.40436,
+        -122.14503,
+        44.52933
+      ]
+    },
+    {
+      "name": "Minam River",
+      "file": "minam-river.geojson",
+      "gnisIds": [
+        "01146303"
+      ],
+      "reaches": 487,
+      "bytes": 180664,
+      "bbox": [
+        -117.73056,
+        45.14598,
+        -117.33658,
+        45.62168
+      ]
+    },
+    {
+      "name": "Mohawk River",
+      "file": "mohawk-river.geojson",
+      "gnisIds": [
+        "01124279"
+      ],
+      "reaches": 99,
+      "bytes": 50276,
+      "bbox": [
+        -122.97552,
+        44.08604,
+        -122.67224,
+        44.25912
+      ]
+    },
+    {
+      "name": "Molalla River",
+      "file": "molalla-river.geojson",
+      "gnisIds": [
+        "01146388"
+      ],
+      "reaches": 211,
+      "bytes": 107083,
+      "bbox": [
+        -122.72406,
+        44.89911,
+        -122.26638,
+        45.30011
+      ]
+    },
+    {
+      "name": "Nehalem River",
+      "file": "nehalem-river.geojson",
+      "gnisIds": [
+        "01124640"
+      ],
+      "reaches": 432,
+      "bytes": 213281,
+      "bbox": [
+        -123.93238,
+        45.65979,
+        -123.14127,
+        46.01564
+      ]
+    },
+    {
+      "name": "Nestucca River",
+      "file": "nestucca-river.geojson",
+      "gnisIds": [
+        "01163172"
+      ],
+      "reaches": 548,
+      "bytes": 233110,
+      "bbox": [
+        -123.97037,
+        45.15936,
+        -123.38071,
+        45.32574
+      ]
+    },
+    {
+      "name": "North Fork Bull Run River",
+      "file": "north-fork-bull-run-river.geojson",
+      "gnisIds": [
+        "01146915"
+      ],
+      "reaches": 58,
+      "bytes": 23851,
+      "bbox": [
+        -122.03746,
+        45.49301,
+        -121.99388,
+        45.5674
+      ]
+    },
+    {
+      "name": "North Fork Coquille River",
+      "file": "north-fork-coquille-river.geojson",
+      "gnisIds": [
+        "01124760"
+      ],
+      "reaches": 357,
+      "bytes": 152216,
+      "bbox": [
+        -124.14164,
+        43.06751,
+        -123.8575,
+        43.32744
+      ]
+    },
+    {
+      "name": "North Fork John Day River",
+      "file": "north-fork-john-day-river.geojson",
+      "gnisIds": [
+        "01146969"
+      ],
+      "reaches": 678,
+      "bytes": 281731,
+      "bbox": [
+        -119.64094,
+        44.75527,
+        -118.2369,
+        45.01845
+      ]
+    },
+    {
+      "name": "North Fork Middle Fork Willamette River",
+      "file": "north-fork-middle-fork-willamette-river.geojson",
+      "gnisIds": [
+        "01146981"
+      ],
+      "reaches": 339,
+      "bytes": 140147,
+      "bbox": [
+        -122.5253,
+        43.68141,
+        -122.03215,
+        43.89578
+      ]
+    },
+    {
+      "name": "North Santiam River",
+      "file": "north-santiam-river.geojson",
+      "gnisIds": [
+        "01147060"
+      ],
+      "reaches": 489,
+      "bytes": 201912,
+      "bbox": [
+        -123.0067,
+        44.47267,
+        -121.88609,
+        44.79816
+      ]
+    },
+    {
+      "name": "North Umpqua River",
+      "file": "north-umpqua-river.geojson",
+      "gnisIds": [
+        "01147070"
+      ],
+      "reaches": 565,
+      "bytes": 231230,
+      "bbox": [
+        -123.44659,
+        43.253,
+        -122.00042,
+        43.35569
+      ]
+    },
+    {
+      "name": "Owyhee River",
+      "file": "owyhee-river.geojson",
+      "gnisIds": [
+        "01147319"
+      ],
+      "reaches": 557,
+      "bytes": 282550,
+      "bbox": [
+        -117.73636,
+        42.26542,
+        -116.88846,
+        43.81282
+      ]
+    },
+    {
+      "name": "Pudding River",
+      "file": "pudding-river.geojson",
+      "gnisIds": [
+        "01125688"
+      ],
+      "reaches": 165,
+      "bytes": 91605,
+      "bbox": [
+        -122.87265,
+        44.89639,
+        -122.71596,
+        45.28367
+      ]
+    },
+    {
+      "name": "Rogue River",
+      "file": "rogue-river.geojson",
+      "gnisIds": [
+        "01148698",
+        "01148699"
+      ],
+      "reaches": 1166,
+      "bytes": 510986,
+      "bbox": [
+        -124.43217,
+        42.40597,
+        -122.22244,
+        45.06471
+      ]
+    },
+    {
+      "name": "Row River",
+      "file": "row-river.geojson",
+      "gnisIds": [
+        "01148810"
+      ],
+      "reaches": 108,
+      "bytes": 48647,
+      "bbox": [
+        -123.04367,
+        43.69506,
+        -122.77097,
+        43.821
+      ]
+    },
+    {
+      "name": "Sandy River",
+      "file": "sandy-river.geojson",
+      "gnisIds": [
+        "01167864"
+      ],
+      "reaches": 389,
+      "bytes": 157740,
+      "bbox": [
+        -122.39746,
+        45.34685,
+        -121.73128,
+        45.57056
+      ]
+    },
+    {
+      "name": "Santiam River",
+      "file": "santiam-river.geojson",
+      "gnisIds": [
+        "01163256"
+      ],
+      "reaches": 40,
+      "bytes": 18021,
+      "bbox": [
+        -123.14376,
+        44.68696,
+        -123.0067,
+        44.7592
+      ]
+    },
+    {
+      "name": "Siletz River",
+      "file": "siletz-river.geojson",
+      "gnisIds": [
+        "01149473"
+      ],
+      "reaches": 606,
+      "bytes": 214950,
+      "bbox": [
+        -124.02619,
+        44.71314,
+        -123.71133,
+        44.92734
+      ]
+    },
+    {
+      "name": "Siuslaw River",
+      "file": "siuslaw-river.geojson",
+      "gnisIds": [
+        "01149557"
+      ],
+      "reaches": 655,
+      "bytes": 278458,
+      "bbox": [
+        -124.14678,
+        43.81403,
+        -123.26118,
+        44.07602
+      ]
+    },
+    {
+      "name": "Sixes River",
+      "file": "sixes-river.geojson",
+      "gnisIds": [
+        "01149567"
+      ],
+      "reaches": 226,
+      "bytes": 94196,
+      "bbox": [
+        -124.54472,
+        42.79979,
+        -124.15314,
+        42.8546
+      ]
+    },
+    {
+      "name": "Smith River",
+      "file": "smith-river.geojson",
+      "gnisIds": [
+        "00253899",
+        "01149763",
+        "01149764"
+      ],
+      "reaches": 850,
+      "bytes": 335125,
+      "bbox": [
+        -124.20491,
+        41.78767,
+        -122.03256,
+        44.38472
+      ]
+    },
+    {
+      "name": "South Fork Bull Run River",
+      "file": "south-fork-bull-run-river.geojson",
+      "gnisIds": [
+        "01149940"
+      ],
+      "reaches": 70,
+      "bytes": 27131,
+      "bbox": [
+        -122.12374,
+        45.43301,
+        -121.9857,
+        45.45258
+      ]
+    },
+    {
+      "name": "South Fork Coquille River",
+      "file": "south-fork-coquille-river.geojson",
+      "gnisIds": [
+        "01149958"
+      ],
+      "reaches": 325,
+      "bytes": 141068,
+      "bbox": [
+        -124.16497,
+        42.71712,
+        -123.86472,
+        43.08058
+      ]
+    },
+    {
+      "name": "South Fork Crooked River",
+      "file": "south-fork-crooked-river.geojson",
+      "gnisIds": [
+        "01166713"
+      ],
+      "reaches": 182,
+      "bytes": 107445,
+      "bbox": [
+        -120.05988,
+        43.75199,
+        -120.00871,
+        44.10177
+      ]
+    },
+    {
+      "name": "South Fork Malheur River",
+      "file": "south-fork-malheur-river.geojson",
+      "gnisIds": [
+        "01127302"
+      ],
+      "reaches": 160,
+      "bytes": 85338,
+      "bbox": [
+        -118.43206,
+        43.19408,
+        -118.16411,
+        43.55658
+      ]
+    },
+    {
+      "name": "South Fork McKenzie River",
+      "file": "south-fork-mckenzie-river.geojson",
+      "gnisIds": [
+        "01149990"
+      ],
+      "reaches": 339,
+      "bytes": 134699,
+      "bbox": [
+        -122.29427,
+        43.91281,
+        -121.8689,
+        44.16148
+      ]
+    },
+    {
+      "name": "South Fork Rogue River",
+      "file": "south-fork-rogue-river.geojson",
+      "gnisIds": [
+        "01150004"
+      ],
+      "reaches": 63,
+      "bytes": 37209,
+      "bbox": [
+        -122.54823,
+        42.51989,
+        -122.26635,
+        42.71996
+      ]
+    },
+    {
+      "name": "South Santiam River",
+      "file": "south-santiam-river.geojson",
+      "gnisIds": [
+        "01150077"
+      ],
+      "reaches": 380,
+      "bytes": 157108,
+      "bbox": [
+        -123.00699,
+        44.3734,
+        -122.21873,
+        44.68668
+      ]
+    },
+    {
+      "name": "South Umpqua River",
+      "file": "south-umpqua-river.geojson",
+      "gnisIds": [
+        "01150090"
+      ],
+      "reaches": 574,
+      "bytes": 242797,
+      "bbox": [
+        -123.45085,
+        42.9269,
+        -122.59025,
+        43.26825
+      ]
+    },
+    {
+      "name": "South Yamhill River",
+      "file": "south-yamhill-river.geojson",
+      "gnisIds": [
+        "01163286"
+      ],
+      "reaches": 148,
+      "bytes": 93596,
+      "bbox": [
+        -123.72781,
+        45.04474,
+        -123.14234,
+        45.22583
+      ]
+    },
+    {
+      "name": "Sprague River",
+      "file": "sprague-river.geojson",
+      "gnisIds": [
+        "01150146"
+      ],
+      "reaches": 170,
+      "bytes": 109391,
+      "bbox": [
+        -121.87356,
+        42.4374,
+        -121.10975,
+        42.6141
+      ]
+    },
+    {
+      "name": "Trask River",
+      "file": "trask-river.geojson",
+      "gnisIds": [
+        "01151402"
+      ],
+      "reaches": 122,
+      "bytes": 45840,
+      "bbox": [
+        -123.88809,
+        45.4291,
+        -123.61238,
+        45.47104
+      ]
+    },
+    {
+      "name": "Tualatin River",
+      "file": "tualatin-river.geojson",
+      "gnisIds": [
+        "01158044",
+        "1158044"
+      ],
+      "reaches": 232,
+      "bytes": 134070,
+      "bbox": [
+        -123.408,
+        45.33814,
+        -122.65125,
+        45.51247
+      ]
+    },
+    {
+      "name": "Umatilla River",
+      "file": "umatilla-river.geojson",
+      "gnisIds": [
+        "01157874"
+      ],
+      "reaches": 435,
+      "bytes": 183458,
+      "bbox": [
+        -119.36313,
+        45.64801,
+        -118.18882,
+        45.91862
+      ]
+    },
+    {
+      "name": "Umpqua River",
+      "file": "umpqua-river.geojson",
+      "gnisIds": [
+        "01151643"
+      ],
+      "reaches": 621,
+      "bytes": 238443,
+      "bbox": [
+        -124.21843,
+        43.26825,
+        -123.44003,
+        43.73772
+      ]
+    },
+    {
+      "name": "Warm Springs River",
+      "file": "warm-springs-river.geojson",
+      "gnisIds": [
+        "01151904"
+      ],
+      "reaches": 90,
+      "bytes": 59882,
+      "bbox": [
+        -121.79217,
+        44.83656,
+        -121.06803,
+        45.0053
+      ]
+    },
+    {
+      "name": "West Fork Hood River",
+      "file": "west-fork-hood-river.geojson",
+      "gnisIds": [
+        "01152080"
+      ],
+      "reaches": 65,
+      "bytes": 40971,
+      "bbox": [
+        -121.78311,
+        45.45675,
+        -121.63334,
+        45.60525
+      ]
+    },
+    {
+      "name": "White River",
+      "file": "white-river.geojson",
+      "gnisIds": [
+        "01152240"
+      ],
+      "reaches": 102,
+      "bytes": 62343,
+      "bbox": [
+        -121.69701,
+        45.13624,
+        -121.06715,
+        45.34481
+      ]
+    },
+    {
+      "name": "Willamette River",
+      "file": "willamette-river.geojson",
+      "gnisIds": [
+        "01158060"
+      ],
+      "reaches": 313,
+      "bytes": 164255,
+      "bbox": [
+        -123.26076,
+        44.02319,
+        -122.60397,
+        45.65748
+      ]
+    },
+    {
+      "name": "Williamson River",
+      "file": "williamson-river.geojson",
+      "gnisIds": [
+        "01152398"
+      ],
+      "reaches": 94,
+      "bytes": 103327,
+      "bbox": [
+        -121.9578,
+        42.44051,
+        -121.33504,
+        42.98138
+      ]
+    },
+    {
+      "name": "Wilson River",
+      "file": "wilson-river.geojson",
+      "gnisIds": [
+        "01163358"
+      ],
+      "reaches": 324,
+      "bytes": 126353,
+      "bbox": [
+        -123.90082,
+        45.46664,
+        -123.46207,
+        45.6092
+      ]
+    },
+    {
+      "name": "Wood River",
+      "file": "wood-river.geojson",
+      "gnisIds": [
+        "01161600"
+      ],
+      "reaches": 60,
+      "bytes": 40175,
+      "bbox": [
+        -122.01267,
+        42.44746,
+        -121.94082,
+        42.74373
+      ]
+    },
+    {
+      "name": "Yachats River",
+      "file": "yachats-river.geojson",
+      "gnisIds": [
+        "01152683"
+      ],
+      "reaches": 136,
+      "bytes": 53465,
+      "bbox": [
+        -124.10718,
+        44.23667,
+        -123.9246,
+        44.31105
+      ]
+    },
+    {
+      "name": "Yaquina River",
+      "file": "yaquina-river.geojson",
+      "gnisIds": [
+        "01152700"
+      ],
+      "reaches": 408,
+      "bytes": 152669,
+      "bbox": [
+        -124.08175,
+        44.57223,
+        -123.58711,
+        44.74901
+      ]
+    }
+  ]
+}
