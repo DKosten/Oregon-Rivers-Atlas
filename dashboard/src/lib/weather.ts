@@ -15,7 +15,7 @@ export function normalizeWeather(item:any){
  const raw=typeof c.time==='string'?c.time:'';
  const time=raw?raw+(/(Z|[+-]\d{2}:\d{2})$/.test(raw)?'':'Z'):'';
  const u=item.current_units||{};
- return {air:u.temperature_2m==='°C'?number('temperature_2m',-80,65):null,cloud:u.cloud_cover==='%'?number('cloud_cover',0,100):null,wind:u.wind_speed_10m==='mp/h'?number('wind_speed_10m',0,250):null,windDirection:u.wind_direction_10m==='°'?number('wind_direction_10m',0,360):null,precipMm:u.precipitation==='mm'?number('precipitation',0,10000):null,precip:c.weather_code==null?'Unknown':precipitationType(c.weather_code),time:Number.isFinite(Date.parse(time))?time:null};
+ return {weatherCode:number('weather_code',0,99),air:u.temperature_2m==='°C'?number('temperature_2m',-80,65):null,cloud:u.cloud_cover==='%'?number('cloud_cover',0,100):null,wind:u.wind_speed_10m==='mp/h'?number('wind_speed_10m',0,250):null,windDirection:u.wind_direction_10m==='°'?number('wind_direction_10m',0,360):null,precipMm:u.precipitation==='mm'?number('precipitation',0,10000):null,precip:c.weather_code==null?'Unknown':precipitationType(c.weather_code),time:Number.isFinite(Date.parse(time))?time:null};
 }
 export function weatherURL(lat:number,lon:number){
  if(!Number.isFinite(lat)||!Number.isFinite(lon)||lat<41.5||lat>46.5||lon< -125||lon> -116.2)throw Error('Weather coordinates outside Oregon coverage');
