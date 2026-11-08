@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {normalize,observations} from '../src/lib/usgs.ts';
+import {fresh,trend,matchesTurbidity,seriesKey} from '../src/lib/turbidity.ts';
+import {world,zoomAt,pan} from '../src/lib/map-view.ts';
+const now=Date.now(),time=new Date(now).toISOString();
+const reading=(value=4,code='63680',unit='_FNU',series='sensor',t=time)=>({properties:{monitoring_location_id:'USGS-14305500',parameter_code:code,value,unit_of_measure:unit,time:t,time_series_id:series}});
+const location={id:'USGS-14305500',properties:{state_code:'41',site_type_code:'LK',monitoring_location_name:'TEST LAKE'},geometry:{type:'Point',coordinates:[-123,44]}};
+const st=normalize([reading(0),reading(5,'00076','NTU'),reading(6,'63680','_FNU','second')],[location])[0];
+assert.equal(st.flow,null);assert.equal(st.turbidity.length,3);assert.equal(st.turbidity[0].value,0);assert.equal(st.turbidity[0].unit,'_FNU');assert.equal(st.turbidity[1].parameterCode,'00076');
+assert.equal(observations([reading(-1),reading(3,'63680','NTU')]).size,0);
+const p={time,value:10,unit:'_FNU',seriesId:'sensor',parameterCode:'63680',approvalStatus:'Provisional',qualifiers:[]};const prior={...p,time:new Date(now-3600000).toISOString()};
+assert.equal(trend([{...prior,value:5}],p,now),'rising');assert.equal(trend([{...prior,value:20}],p,now),'falling');assert.equal(trend([{...prior,value:10.1}],p,now),'stable');assert.equal(trend([{...prior,unit:'FNU'}],p,now),'unknown');assert.equal(trend([{...prior,seriesId:'other'}],p,now),'unknown');assert.equal(trend([{...prior,time:new Date(now-7200000).toISOString()}],p,now),'unknown');assert.equal(fresh({...p,time:new Date(now-7300000).toISOString()},now),false);
+assert.equal(matchesTurbidity([p],'current','63680|_FNU','8','12',{},'1'),true);assert.equal(matchesTurbidity([p],'current','00076|NTU','','',{},'1'),false);assert.equal(matchesTurbidity([p],'rising','','','',{['1|'+seriesKey(p)]:'rising'},'1'),true);
+const v={center:[-123.5,44.5],zoom:8},size=[800,500],pointer=[150,100];const c=world(...v.center,v.zoom),anchor=[c[0]+pointer[0]-size[0]/2,c[1]+pointer[1]-size[1]/2];const next=zoomAt(v,9.25,pointer,size),nc=world(...next.center,next.zoom),scale=2**1.25;
+assert.ok(Math.abs(anchor[0]*scale-nc[0]-(pointer[0]-size[0]/2))<1e-7);assert.ok(Math.abs(anchor[1]*scale-nc[1]-(pointer[1]-size[1]/2))<1e-7);const moved=world(...pan(v,50,-20).center,8);assert.ok(Math.abs(moved[0]-c[0]+50)<1e-7);assert.ok(Math.abs(moved[1]-c[1]-20)<1e-7);
+console.log('PASS: turbidity-only lake sites, original units, incompatible method rejection, sensor isolation, hourly trends/gaps, numeric filters, pointer-anchored zoom and pan.');

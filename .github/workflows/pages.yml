@@ -34,6 +34,17 @@ jobs:
       - run: npm ci --no-audit --no-fund
       - run: npm test
       - run: npm run build
+      - name: Install browser for validation
+        run: npx playwright install --with-deps chromium
+      - name: Browser validation with live public data
+        run: npx playwright test
+      - name: Retain browser test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-validation
+          path: dashboard/test-results
+          retention-days: 7
       - name: Upload deployment artifact
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v4
