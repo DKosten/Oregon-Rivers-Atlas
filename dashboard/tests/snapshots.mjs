@@ -5,3 +5,6 @@ const points=[point(0),point(1),point(4),point(49),point(2,3,'FNU'),point(3,3,'d
 const selected=snapshotPoints(points,0,48*3600000,'degC','a');assert.equal(selected.length,3);assert.equal((sparkPath(selected,0,48*3600000).d.match(/M/g)||[]).length,2);
 assert.equal(fahrenheit(point(0,0)).value,32);assert.equal(fahrenheit(point(0,-10)).value,14);assert.equal(fahrenheit(point(0)).time,point(0).time);assert.equal(snapshotPoints([],0,1).length,0);
 console.log('PASS: 48-hour bounds, sensor/unit isolation, Fahrenheit conversion, significant gap breaks.');
+const {observations}=await import('../src/lib/usgs.ts');
+const air=(unit,value)=>({properties:{monitoring_location_id:'USGS-14305500',parameter_code:'00020',time:new Date().toISOString(),value,unit_of_measure:unit,time_series_id:'air'}});
+assert.equal(observations([air('degC',-12)]).size,1);assert.equal(observations([air('degF',55)]).size,0);assert.equal(observations([air('degC',99)]).size,0);

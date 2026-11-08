@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 // Real public feeds. Production remains unchanged while this PR is reviewed.
 test('persistent rivers, selected associations, observation snapshots and map area',async({page,browser},info)=>{
- const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.url().includes('api.waterdata.usgs.gov')&&r.status()>=400)console.log('USGS_RESPONSE',r.status(),r.url())});page.on('requestfailed',r=>console.log('REQUEST_FAILED',r.failure()?.errorText,r.url()));
  await page.goto('./#page=overview&station=14305500');
  await expect(page.getByLabel('Select monitoring station')).toBeVisible({timeout:90000});
  const overlay=page.locator('.river-overlay');await expect(overlay).toHaveAttribute('data-rivers-loaded','81',{timeout:60000});
@@ -10,7 +10,7 @@ test('persistent rivers, selected associations, observation snapshots and map ar
   await page.getByLabel('Select monitoring station').selectOption(id);
   await expect(page.locator('.selected-river')).toHaveAttribute('data-river',name);
   await expect(paths).toHaveCount(count);await expect(page.locator('.observation-card')).toHaveCount(5);
-  await expect(page.locator('.observation-card').first().locator('svg path')).toHaveCount(1,{timeout:60000});
+  await expect(page.locator('.observation-card').first().locator('svg path')).toHaveCount(1,{timeout:60000}).catch(async e=>{console.log('SNAPSHOT_STATE',id,await page.locator('.observation-grid').innerText());throw e});
  }
  await expect(page.locator('.observation-card').nth(3)).toContainText('63680');await expect(page.locator('.observation-card').nth(3)).toContainText('_FNU');
  await expect(page.locator('.observation-card').nth(4)).not.toContainText('Loading observations',{timeout:60000});
