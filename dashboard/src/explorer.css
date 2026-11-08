@@ -24,3 +24,6 @@
 .station-weather{border-left:1px solid var(--line);padding-left:14px}.station-weather .compact-weather{margin:0;padding:0;border:0;display:grid;grid-template-columns:1fr 1fr;gap:7px}.station-weather .compact-weather>small,.station-weather .compact-weather>span:first-of-type,.station-weather details{grid-column:1/-1}.station-weather .compact-weather>span{font-size:10px}.station-weather .compact-weather>small{display:block}
 @media(min-width:760px) and (max-width:1200px){.station-context{grid-template-columns:minmax(0,1fr) 160px;gap:10px}.observation-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.snapshot-label{min-height:14px}}
 @media(max-width:759px){.station-context{grid-template-columns:1fr;gap:12px}.observation-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.station-weather{border-left:0;border-top:1px solid var(--line);padding:10px 0 0}.snapshot-label{min-height:14px}.feature-panel:not(.expanded){max-height:33vh}}
+
+/* Keep native text/image dragging from taking over map gestures. */
+.explorer .map{user-select:none;-webkit-user-select:none}.explorer .map input,.explorer .map select{user-select:auto;-webkit-user-select:auto}

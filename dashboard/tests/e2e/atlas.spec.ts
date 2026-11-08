@@ -16,6 +16,17 @@ test('live data, hydrography, mouse navigation, filters, history and base paths'
   await page.screenshot({path:testInfo.outputPath(river.replaceAll(' ','-')+'.png')});
  }
  await checkRefinements(page,browser,testInfo);
+ // A drag may start on a gauge marker, not just empty basemap tiles.
+ await page.getByLabel('Center selected station',{exact:true}).click();
+ const selectedPin=page.locator('.map-pin.selected'),pinBox=(await selectedPin.boundingBox())!;
+ const geometryBefore=await page.locator('.all-rivers').getAttribute('transform');
+ await page.mouse.move(pinBox.x+pinBox.width/2,pinBox.y+pinBox.height/2);await page.mouse.down();await page.mouse.move(pinBox.x+pinBox.width/2+90,pinBox.y+pinBox.height/2+35,{steps:12});await page.mouse.up();
+ await expect(page.locator('.all-rivers')).not.toHaveAttribute('transform',geometryBefore!);await expect(page.getByLabel('Select monitoring station')).toHaveValue('14162500');
+ console.log('Marker drag passed');
+ // A stationary click on a marker must still select it after a drag.
+ const pinName=await selectedPin.getAttribute('aria-label');await page.getByLabel('Close selected feature').click();await page.getByRole('button',{name:pinName!,exact:true}).click({position:{x:6,y:22},timeout:15000});await expect(page.getByLabel('Select monitoring station')).toHaveValue('14162500');
+ await page.getByLabel('Select monitoring station').selectOption('14162500');await page.getByLabel('Map river geometry').selectOption('McKenzie River');
+ console.log('Marker click passed; restored river viewport');
  const box=(await map.boundingBox())!;await page.mouse.move(box.x+box.width*.65,box.y+box.height*.4);const z=Number(await map.getAttribute('data-zoom'));await page.mouse.wheel(0,-150);await expect.poll(async()=>Number(await map.getAttribute('data-zoom'))).toBeGreaterThan(z);
  const before=await page.locator('.river-overlay polyline').first().getAttribute('points');await page.mouse.move(box.x+box.width*.65,box.y+box.height*.4);await page.mouse.down();await page.mouse.move(box.x+box.width*.65+60,box.y+box.height*.4+20,{steps:8});await page.mouse.up();await expect(page.locator('.river-overlay polyline').first()).not.toHaveAttribute('points',before!);
  const dz=Number(await map.getAttribute('data-zoom'));await page.mouse.dblclick(box.x+box.width*.7,box.y+box.height*.4);await expect.poll(async()=>Number(await map.getAttribute('data-zoom'))).toBeGreaterThan(dz);
