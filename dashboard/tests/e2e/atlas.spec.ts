@@ -1,6 +1,7 @@
 import {test,expect} from '@playwright/test';
+import {checkRefinements} from './refinements';
 // Real public APIs, no fixtures or replacement observations in deployment tests.
-test('live data, hydrography, mouse navigation, filters, history and base paths',async({page},testInfo)=>{
+test('live data, hydrography, mouse navigation, filters, history and base paths',async({page,browser},testInfo)=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('./#page=overview&station=14305500');
  await expect(page.getByLabel('Select monitoring station')).toBeVisible({timeout:90000});
@@ -8,12 +9,13 @@ test('live data, hydrography, mouse navigation, filters, history and base paths'
  for(const [river,station] of [['Siletz River','14305500'],['Alsea River','14306500'],['McKenzie River','14162500']]){
   await page.getByLabel('Select monitoring station').selectOption(station);
   await page.getByLabel('Map river geometry').selectOption(river);
-  await expect(page.locator('.river-overlay polyline').first()).toBeAttached({timeout:20000});
+  await expect(page.locator('.river-overlay polyline').first()).toBeAttached({timeout:20000});await expect(page.locator('.selected-river')).toHaveAttribute('data-river',river);await expect(page.locator('.observation-card').first().locator('svg path')).toHaveCount(1,{timeout:60000});
   await expect(page.getByLabel('Select river reach').locator('option')).not.toHaveCount(1);
   await expect(page.locator('.tiles img').first()).toBeVisible();
   await expect.poll(()=>page.locator('.tiles img').evaluateAll(images=>images.filter(i=>(i as HTMLImageElement).naturalWidth>0).length)).toBeGreaterThan(0);
   await page.screenshot({path:testInfo.outputPath(river.replaceAll(' ','-')+'.png')});
  }
+ await checkRefinements(page,browser,testInfo);
  const box=(await map.boundingBox())!;await page.mouse.move(box.x+box.width*.65,box.y+box.height*.4);const z=Number(await map.getAttribute('data-zoom'));await page.mouse.wheel(0,-150);await expect.poll(async()=>Number(await map.getAttribute('data-zoom'))).toBeGreaterThan(z);
  const before=await page.locator('.river-overlay polyline').first().getAttribute('points');await page.mouse.move(box.x+box.width*.65,box.y+box.height*.4);await page.mouse.down();await page.mouse.move(box.x+box.width*.65+60,box.y+box.height*.4+20,{steps:8});await page.mouse.up();await expect(page.locator('.river-overlay polyline').first()).not.toHaveAttribute('points',before!);
  const dz=Number(await map.getAttribute('data-zoom'));await page.mouse.dblclick(box.x+box.width*.7,box.y+box.height*.4);await expect.poll(async()=>Number(await map.getAttribute('data-zoom'))).toBeGreaterThan(dz);
@@ -25,6 +27,7 @@ test('live data, hydrography, mouse navigation, filters, history and base paths'
  await page.getByLabel('Turbidity filter',{exact:true}).selectOption('rising');await expect(page.getByRole('status').filter({hasText:/Checked \d+\/\d+/})).toBeVisible({timeout:90000});
  await page.getByLabel('Turbidity filter',{exact:true}).selectOption('all');await page.getByLabel('Turbidity method and unit').selectOption('');
  await page.getByRole('button',{name:'Collapse feature details'}).click();await page.getByLabel('USFS sites',{exact:true}).check();await expect.poll(()=>page.locator('.access-pin').count(),{timeout:90000}).toBeGreaterThan(0);await page.getByLabel('USFS sites',{exact:true}).uncheck();await expect(page.locator('.access-pin')).toHaveCount(0);
+ await page.getByLabel('Close selected feature').click();await expect(page.locator('.selected-river')).toHaveCount(0);await expect(page.locator('.all-rivers>path').first()).toBeAttached();
  await page.goto('./#page=overview&station=14372300');await expect(page.getByLabel('Select monitoring station')).toHaveValue('14372300',{timeout:90000});await page.reload();await expect(page.getByLabel('Select monitoring station')).toHaveValue('14372300',{timeout:90000});
  expect(errors).toEqual([]);
 });
