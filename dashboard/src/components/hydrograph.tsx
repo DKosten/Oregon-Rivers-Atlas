@@ -1,4 +1,5 @@
 'use client';
+import {sparkPath} from '../lib/snapshots';
 import {useState} from 'react';
 import type {Point} from '../lib/usgs';
 export default function Hydrograph({series,unit='CFS',daily=false,seasonal=false}:{series:{name:string,points:Point[],color:string}[],unit?:string,daily?:boolean,seasonal?:boolean}){
@@ -12,4 +13,14 @@ export default function Hydrograph({series,unit='CFS',daily=false,seasonal=false
  {hover!=null&&<line x1={hover} x2={hover} y1="20" y2="220" stroke="#426c61" strokeDasharray="3 3"/>}</svg>
  {nearest.length>0&&<div className="chart-tooltip">{nearest.map(s=><div key={s.name}><i style={{background:s.color}}/>{s.name}: <b>{s.p?.value.toLocaleString()} {unit}</b><small>{s.p&&(daily?s.p.time:new Date(s.p.time).toLocaleString('en-US',{timeZone:'America/Los_Angeles',timeZoneName:'short'}))}</small></div>)}</div>}
  <div className="chart-legend">{series.map(s=><span key={s.name}><i style={{background:s.color}}/>{s.name}</span>)}<small>{daily?'USGS daily means · station-local date':'Continuous observations · Pacific time'} · gaps are not connected</small></div></div>
+}
+
+// Compact form uses the same SVG approach and two-hour gap rule as the full chart.
+export function ObservationSparkline({points,start,end,unit}:{points:Point[],start:number,end:number,unit:string}){
+ const [hover,setHover]=useState<number|null>(null);const {d,x,y}=sparkPath(points,start,end);
+ const nearest=hover==null?null:points.reduce<Point|null>((a,p)=>!a||Math.abs(Date.parse(p.time)-hover)<Math.abs(Date.parse(a.time)-hover)?p:a,null);
+ return <svg className="observation-sparkline" viewBox="0 0 240 48" preserveAspectRatio="none" role="img" aria-label={`48-hour observations in ${unit}`} onPointerMove={e=>{const r=e.currentTarget.getBoundingClientRect();setHover(start+(e.clientX-r.left)/r.width*(end-start))}} onPointerLeave={()=>setHover(null)}>
+ {[12,24,36].map(v=><line key={v} x1="3" x2="237" y1={v} y2={v} stroke="#e0e6e3" strokeWidth=".7"/>)}<path d={d} stroke="#28778e" strokeWidth="1.7" fill="none"/>{points.map((p,i)=><circle key={p.time+i} cx={x(Date.parse(p.time))} cy={y(p.value)} r={points.length===1?2.5:.8} fill="#28778e"><title>{p.value.toLocaleString(undefined,{maximumFractionDigits:2})} {unit} · {new Date(p.time).toLocaleString('en-US',{timeZone:'America/Los_Angeles',timeZoneName:'short'})}</title></circle>)}
+ <text x="3" y="47">−48h</text><text x="237" y="47" textAnchor="end">Now</text>{nearest&&<title>{nearest.value} {unit} · {nearest.time}</title>}
+ </svg>;
 }

@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc --noEmit && vite build",
-    "test": "node tests/core.mjs && node tests/browser-data.mjs && node tests/gis-water-quality.mjs && node tests/river-data.mjs && node tests/explorer.mjs",
+    "test": "node tests/core.mjs && node tests/browser-data.mjs && node tests/gis-water-quality.mjs && node tests/river-data.mjs && node tests/explorer.mjs && node tests/snapshots.mjs",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {

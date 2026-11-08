@@ -1,0 +1,7 @@
+import assert from 'node:assert/strict';
+import {snapshotPoints,fahrenheit,sparkPath} from '../src/lib/snapshots.ts';
+const point=(hours,value=2,unit='degC',seriesId='a')=>({time:new Date(hours*3600000).toISOString(),value,unit,seriesId,approvalStatus:'Provisional',qualifiers:[]});
+const points=[point(0),point(1),point(4),point(49),point(2,3,'FNU'),point(3,3,'degC','b')];
+const selected=snapshotPoints(points,0,48*3600000,'degC','a');assert.equal(selected.length,3);assert.equal((sparkPath(selected,0,48*3600000).d.match(/M/g)||[]).length,2);
+assert.equal(fahrenheit(point(0,0)).value,32);assert.equal(fahrenheit(point(0,-10)).value,14);assert.equal(fahrenheit(point(0)).time,point(0).time);assert.equal(snapshotPoints([],0,1).length,0);
+console.log('PASS: 48-hour bounds, sensor/unit isolation, Fahrenheit conversion, significant gap breaks.');
