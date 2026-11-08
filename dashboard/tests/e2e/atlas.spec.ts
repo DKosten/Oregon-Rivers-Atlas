@@ -24,7 +24,7 @@ test('live data, hydrography, mouse navigation, filters, history and base paths'
  await expect(page.locator('.all-rivers')).not.toHaveAttribute('transform',geometryBefore!);await expect(page.getByLabel('Select monitoring station')).toHaveValue('14162500');
  console.log('Marker drag passed');
  // A stationary click on a marker must still select it after a drag.
- const pinName=await selectedPin.getAttribute('aria-label');await page.getByLabel('Close selected feature').click();await page.getByRole('button',{name:pinName!,exact:true}).click({timeout:15000});await expect(page.getByLabel('Select monitoring station')).toHaveValue('14162500');
+ const pinName=await selectedPin.getAttribute('aria-label');await page.getByLabel('Close selected feature').click();await page.getByRole('button',{name:pinName!,exact:true}).click({position:{x:6,y:22},timeout:15000});await expect(page.getByLabel('Select monitoring station')).toHaveValue('14162500');
  await page.getByLabel('Select monitoring station').selectOption('14162500');await page.getByLabel('Map river geometry').selectOption('McKenzie River');
  console.log('Marker click passed; restored river viewport');
  const box=(await map.boundingBox())!;await page.mouse.move(box.x+box.width*.65,box.y+box.height*.4);const z=Number(await map.getAttribute('data-zoom'));await page.mouse.wheel(0,-150);await expect.poll(async()=>Number(await map.getAttribute('data-zoom'))).toBeGreaterThan(z);
