@@ -41,3 +41,11 @@ The existing GitHub Actions build now runs unit tests, a production build, and C
 Existing weather, flow/height/temperature, historical analytics, preferences, recreation layer, and sources remain. Alerts remain inactive as before. No paid dependencies or additional hosting are introduced; Playwright is a development-only browser test dependency.
 
 Rollback: revert the merged feature PR via another PR; the unchanged main-branch Pages workflow republishes the prior application. The production URL remains https://dkosten.github.io/Oregon-Rivers-Atlas/.
+
+## Completion evidence (2026-11-07)
+
+- 81 river GeoJSON files: 12,033,242 bytes (11.48 MiB), 27,052 NHD features; 187 name-and-distance station associations. Siletz 14305500: 1.5 m; Alsea 14306500: 60.6 m; McKenzie 14162500: 62.0 m from their candidate linework.
+- Extraction found 53 stations with retained turbidity, 48 fresh within two hours; post-deployment browser verification found 49 fresh stations. Counts change with incoming observations. All retained readings at extraction were 63680 / `_FNU`; the other seven supported codes had no retained readings.
+- PR #3 and production run 42428317722 passed unit/data tests, build, and both desktop/mobile Chromium suites. Production deployed successfully at commit 35f1d47b1f846543e9c40a23a98d8c8a6f4aa514.
+- Public-origin browser verification confirmed live Siletz/Alsea readings, weather, loaded GeoJSON and tiles, geographic alignment, and McKenzie 24-hour turbidity history with raw unit, parameter, timestamp and sensor ID. A follow-up fixes small-value axis labels to preserve significant digits.
+- Four named-river gauge candidates remain unassigned beyond 250 m: 14139940, 14207740, 453630122021400 and 14246900. Non-river and ambiguous site labels are not forced onto a river. Geometry is legacy NHD, not new 3DHP survey data. Mobile gestures were emulated, not tested on a physical phone or trackpad.
