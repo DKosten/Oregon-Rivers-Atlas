@@ -4,7 +4,7 @@ import {TURBIDITY_CODES} from './turbidity-codes.ts';
 export const BASE='https://api.waterdata.usgs.gov/ogcapi/v1';
 export type Point={time:string,value:number,unit:string,seriesId:string,approvalStatus:string,qualifiers:unknown,parameterCode?:string};
 export type Station={id:string,name:string,river:string,lat:number|null,lon:number|null,flow:Point|null,temperature:Point|null,height:Point|null,turbidity:Point[]};
-export const fields:Record<string,string>={'00060':'flow','00010':'temperature','00065':'height',...Object.fromEntries(Object.keys(TURBIDITY_CODES).map(c=>[c,'turbidity']))};
+export const fields:Record<string,string>={'00060':'flow','00010':'temperature','00065':'height','00020':'airTemperature',...Object.fromEntries(Object.keys(TURBIDITY_CODES).map(c=>[c,'turbidity']))};
 export async function features(collection:string,params:Record<string,string>){
  let url=BASE+'/collections/'+collection+'/items?'+new URLSearchParams({f:'json',limit:'10000',...params});
  const seen=new Set<string>();const out:any[]=[];
@@ -26,6 +26,7 @@ export function observations(items:any[],daily=false,allSeries=false){
   if(TURBIDITY_CODES[code]&&(value<0||!TURBIDITY_CODES[code].units.includes(unit)))continue;
   if(code==='00060'&&(unit!=='ft^3/s'||value<0||value>1e8))continue;
   if(code==='00010'&&(!['degC','°C'].includes(unit)||value< -5||value>45))continue;
+  if(code==='00020'&&(!['degC','°C'].includes(unit)||value< -90||value>65))continue;
   if(code==='00065'&&(unit!=='ft'||Math.abs(value)>10000))continue;
   const raw=String(p.time||'');if(!daily&&!/(Z|[+-]\d\d:\d\d)$/.test(raw))continue;
   if(!Number.isFinite(Date.parse(raw)))continue;
