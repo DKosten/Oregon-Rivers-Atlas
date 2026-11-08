@@ -28,7 +28,7 @@ test('live data, hydrography, mouse navigation, filters, history and base paths'
  await page.getByLabel('Turbidity filter',{exact:true}).selectOption('all');await page.getByLabel('Turbidity method and unit').selectOption('');
  await page.getByRole('button',{name:'Collapse feature details'}).click();await page.getByLabel('USFS sites',{exact:true}).check();await expect.poll(()=>page.locator('.access-pin').count(),{timeout:90000}).toBeGreaterThan(0);await page.getByLabel('USFS sites',{exact:true}).uncheck();await expect(page.locator('.access-pin')).toHaveCount(0);
  await page.getByLabel('Close selected feature').click();await expect(page.locator('.selected-river')).toHaveCount(0);await expect(page.locator('.all-rivers>path').first()).toBeAttached();
- await page.goto('./#page=overview&station=14372300');await expect(page.getByLabel('Select monitoring station')).toHaveValue('14372300',{timeout:90000});await page.reload();await expect(page.getByLabel('Select monitoring station')).toHaveValue('14372300',{timeout:90000});
+ await page.goto('./#page=overview&station=14372300');await expect(page.getByLabel('Select monitoring station')).toHaveValue('14372300',{timeout:90000});await page.route('**/collections/continuous/items?**',route=>route.abort());await page.reload();await expect(page.getByLabel('Select monitoring station')).toHaveValue('14372300',{timeout:90000});await expect(page.locator('.observation-card').first().locator('.snapshot-value b')).toBeVisible();await expect(page.locator('.observation-card').first().locator('.snapshot-empty')).toContainText('unavailable',{timeout:30000});
  expect(errors).toEqual([]);
 });
 test('mobile layout, touch drag and pinch preserve geographic alignment',async({browser},testInfo)=>{

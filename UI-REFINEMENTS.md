@@ -11,3 +11,19 @@ Open-Meteo weather remains modeled near the gauge, separate from USGS air observ
 No dependencies, paid services, routes or deployment settings were added. GitHub Pages continues using the repository base path and existing hash navigation. Production must remain unchanged until this pull request is approved.
 
 Validation includes existing unit/browser tests, snapshot bounds/unit/sensor/gap checks, Siletz/Alsea/McKenzie selection, all-river persistence across basemaps and clearing selection, five snapshot cards, and desktop/mobile map-area comparisons against production. Actions retains responsive screenshots in the `browser-validation` artifact.
+
+## Review evidence
+
+Live Chromium validation passed on 2026-11-08 for Siletz, Alsea and McKenzie selection, all 81 river files, river highlighting across basemaps, desktop wheel/drag/double-click, mobile drag/pinch, existing filters, weather, and historical turbidity controls. McKenzie returned observed flow, stage, water temperature and turbidity histories; no USGS air-temperature history was available and the explicit unavailable message was shown. Current readings are retained independently when a historical request fails.
+
+Map area compared with unchanged production at the same viewport and selected station:
+
+| Viewport | Baseline map height | Updated map height | Area retained |
+| --- | ---: | ---: | ---: |
+| 1440 × 1050 | 814 px | 735.5 px | 90.4% |
+| 1366 × 900 | 664 px | 585.5 px | 88.2% |
+| 390 × 844 | 499.5 px | 435.48 px | 87.2% |
+
+Map widths were unchanged. This verifies the 15% limit at these tested sizes, not every possible viewport. Browser evidence contains `refinements-1440.png`, `refinements-1366.png`, `refinements-390.png` and the existing mobile/touch screenshots.
+
+The first expanded test suite exceeded USGS's anonymous request quota (HTTP 429). The final checks reuse the existing live browser session and resize a single production-baseline page, reducing repeated requests without substituting observations. Snapshot history concurrency is limited to two; normal provider quotas still apply and are explicitly reported in the interface.
